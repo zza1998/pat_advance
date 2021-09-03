@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/stl-PAT98.dir/PAT/stl/PAT98.cpp.o -o stl-PAT98 

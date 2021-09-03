@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhouzian/Documents/work_space/patTest/PAT/tree/PAT123.cpp
+iostream
+/Users/zhouzian/Documents/work_space/patTest/PAT/tree/iostream
+queue
+/Users/zhouzian/Documents/work_space/patTest/PAT/tree/queue
+

@@ -1,0 +1,45 @@
+对于排序要注意
+122233 的序号是 122255 相同的值序号相同
+cmp 函数使用int 返回值
+对于多种维度排序可以用 falg[] 数组设置index 值每次++进行对应值for循环排序
+for (ind = 0;ind <=3; ind++) {
+    sort(stuV.begin(),stuV.end(),cmpA);
+    int rank = 1;
+    stuV[0].ranks[ind] = 1;
+    for (int j = 1; j < num; ++j) {
+        if(stuV[j].flags[ind] != stuV[j-1].flags[ind]){
+            rank = j+1;
+        }
+        stuV[j].ranks[ind] = rank;
+    }
+}
+多重排序时 注意一个值相等再判断另一个
+struct Stu{
+    string code;
+    int score{};
+    int f_rank{},l_num{},l_rank{};
+};
+bool cmpS(const Stu &s1,const Stu &s2){
+    if(s1.score != s2.score){
+        return s1.score>s2.score;
+    }
+    return s1.code<=s2.code;
+}
+pat55 根据只获取top100在总体排序后简化需要查询数据的量
+pat75 注意逻辑理解
+pat95 对于记录型排序 采用vector按id排序然后挨个遍历判断前后id相等 可以代替map获取
+pat29 双指针要考虑数组越界问题，是否有一个指针会越界
+PAT8 就算不动也要耗时
+PAT15 一定要注意Yes 和 No 的大小写
+PAT81 最大公约数
+        int maxy(int a,int b){
+                if(b==0)return a;
+                else return maxy(b,a%b);
+            }
+
+PAT131 对于两个节点 1102 2222的边关系 可以转化为11022222的一个数 用map容器降维
+        依次输出边时 最后一个边另外输出
+PAT18 这种图最优路径题目 利用dfs 然后注意判断最优条件 多个相同情况的判优 一个状态到另一个状态的转换
+PAT91 travel一次就可以完成的就不要每次都找 可以用数组来循环上下左右
+PAT67 交换数字的时候一定要看清楚交换那个 避免搞混
+

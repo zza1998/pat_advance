@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhouzian/Documents/work_space/patTest/PAT/PAT59.cpp
+iostream
+/Users/zhouzian/Documents/work_space/patTest/PAT/iostream
+vector
+/Users/zhouzian/Documents/work_space/patTest/PAT/vector
+map
+/Users/zhouzian/Documents/work_space/patTest/PAT/map
+

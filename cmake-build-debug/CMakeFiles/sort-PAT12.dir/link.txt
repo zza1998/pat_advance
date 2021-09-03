@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sort-PAT12.dir/PAT/sort/PAT12.cpp.o -o sort-PAT12 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lcode-lcode1.dir/PAT/lcode/lcode1.cpp.o -o lcode-lcode1 

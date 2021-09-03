@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhouzian/Documents/work_space/patTest/mapTest.cpp
+iostream
+/Users/zhouzian/Documents/work_space/patTest/iostream
+map
+/Users/zhouzian/Documents/work_space/patTest/map
+string
+/Users/zhouzian/Documents/work_space/patTest/string
+vector
+/Users/zhouzian/Documents/work_space/patTest/vector
+unordered_map
+/Users/zhouzian/Documents/work_space/patTest/unordered_map
+

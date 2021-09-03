@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhouzian/Documents/work_space/patTest/PAT/hash/PAT41.cpp
+iostream
+/Users/zhouzian/Documents/work_space/patTest/PAT/hash/iostream
+vector
+/Users/zhouzian/Documents/work_space/patTest/PAT/hash/vector
+unordered_map
+/Users/zhouzian/Documents/work_space/patTest/PAT/hash/unordered_map
+

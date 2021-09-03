@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/patTest-PAT35.dir/PAT35.cpp.o -o patTest-PAT35 
