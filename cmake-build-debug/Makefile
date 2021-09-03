@@ -390,6 +390,32 @@ map-PAT13/fast:
 .PHONY : map-PAT13/fast
 
 #=============================================================================
+# Target rules for targets named lcode-lcode6
+
+# Build rule for target.
+lcode-lcode6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode6
+.PHONY : lcode-lcode6
+
+# fast build rule for target.
+lcode-lcode6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/build
+.PHONY : lcode-lcode6/fast
+
+#=============================================================================
+# Target rules for targets named lcode-lcode4
+
+# Build rule for target.
+lcode-lcode4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode4
+.PHONY : lcode-lcode4
+
+# fast build rule for target.
+lcode-lcode4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/build
+.PHONY : lcode-lcode4/fast
+
+#=============================================================================
 # Target rules for targets named lcode-lecode3
 
 # Build rule for target.
@@ -401,6 +427,19 @@ lcode-lecode3: cmake_check_build_system
 lcode-lecode3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lecode3.dir/build.make CMakeFiles/lcode-lecode3.dir/build
 .PHONY : lcode-lecode3/fast
+
+#=============================================================================
+# Target rules for targets named lcode-lcode204
+
+# Build rule for target.
+lcode-lcode204: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode204
+.PHONY : lcode-lcode204
+
+# fast build rule for target.
+lcode-lcode204/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/build
+.PHONY : lcode-lcode204/fast
 
 #=============================================================================
 # Target rules for targets named lcode-lcode2
@@ -1207,6 +1246,19 @@ math-PAT49: cmake_check_build_system
 math-PAT49/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT49.dir/build.make CMakeFiles/math-PAT49.dir/build
 .PHONY : math-PAT49/fast
+
+#=============================================================================
+# Target rules for targets named lcode-lcode5
+
+# Build rule for target.
+lcode-lcode5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode5
+.PHONY : lcode-lcode5
+
+# fast build rule for target.
+lcode-lcode5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/build
+.PHONY : lcode-lcode5/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT46
@@ -2716,6 +2768,114 @@ PAT/lcode/lcode2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode2.dir/build.make CMakeFiles/lcode-lcode2.dir/PAT/lcode/lcode2.cpp.s
 .PHONY : PAT/lcode/lcode2.cpp.s
 
+PAT/lcode/lcode204.o: PAT/lcode/lcode204.cpp.o
+
+.PHONY : PAT/lcode/lcode204.o
+
+# target to build an object file
+PAT/lcode/lcode204.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/PAT/lcode/lcode204.cpp.o
+.PHONY : PAT/lcode/lcode204.cpp.o
+
+PAT/lcode/lcode204.i: PAT/lcode/lcode204.cpp.i
+
+.PHONY : PAT/lcode/lcode204.i
+
+# target to preprocess a source file
+PAT/lcode/lcode204.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/PAT/lcode/lcode204.cpp.i
+.PHONY : PAT/lcode/lcode204.cpp.i
+
+PAT/lcode/lcode204.s: PAT/lcode/lcode204.cpp.s
+
+.PHONY : PAT/lcode/lcode204.s
+
+# target to generate assembly for a file
+PAT/lcode/lcode204.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/PAT/lcode/lcode204.cpp.s
+.PHONY : PAT/lcode/lcode204.cpp.s
+
+PAT/lcode/lcode4.o: PAT/lcode/lcode4.cpp.o
+
+.PHONY : PAT/lcode/lcode4.o
+
+# target to build an object file
+PAT/lcode/lcode4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/PAT/lcode/lcode4.cpp.o
+.PHONY : PAT/lcode/lcode4.cpp.o
+
+PAT/lcode/lcode4.i: PAT/lcode/lcode4.cpp.i
+
+.PHONY : PAT/lcode/lcode4.i
+
+# target to preprocess a source file
+PAT/lcode/lcode4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/PAT/lcode/lcode4.cpp.i
+.PHONY : PAT/lcode/lcode4.cpp.i
+
+PAT/lcode/lcode4.s: PAT/lcode/lcode4.cpp.s
+
+.PHONY : PAT/lcode/lcode4.s
+
+# target to generate assembly for a file
+PAT/lcode/lcode4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/PAT/lcode/lcode4.cpp.s
+.PHONY : PAT/lcode/lcode4.cpp.s
+
+PAT/lcode/lcode5.o: PAT/lcode/lcode5.cpp.o
+
+.PHONY : PAT/lcode/lcode5.o
+
+# target to build an object file
+PAT/lcode/lcode5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/PAT/lcode/lcode5.cpp.o
+.PHONY : PAT/lcode/lcode5.cpp.o
+
+PAT/lcode/lcode5.i: PAT/lcode/lcode5.cpp.i
+
+.PHONY : PAT/lcode/lcode5.i
+
+# target to preprocess a source file
+PAT/lcode/lcode5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/PAT/lcode/lcode5.cpp.i
+.PHONY : PAT/lcode/lcode5.cpp.i
+
+PAT/lcode/lcode5.s: PAT/lcode/lcode5.cpp.s
+
+.PHONY : PAT/lcode/lcode5.s
+
+# target to generate assembly for a file
+PAT/lcode/lcode5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/PAT/lcode/lcode5.cpp.s
+.PHONY : PAT/lcode/lcode5.cpp.s
+
+PAT/lcode/lcode6.o: PAT/lcode/lcode6.cpp.o
+
+.PHONY : PAT/lcode/lcode6.o
+
+# target to build an object file
+PAT/lcode/lcode6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/PAT/lcode/lcode6.cpp.o
+.PHONY : PAT/lcode/lcode6.cpp.o
+
+PAT/lcode/lcode6.i: PAT/lcode/lcode6.cpp.i
+
+.PHONY : PAT/lcode/lcode6.i
+
+# target to preprocess a source file
+PAT/lcode/lcode6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/PAT/lcode/lcode6.cpp.i
+.PHONY : PAT/lcode/lcode6.cpp.i
+
+PAT/lcode/lcode6.s: PAT/lcode/lcode6.cpp.s
+
+.PHONY : PAT/lcode/lcode6.s
+
+# target to generate assembly for a file
+PAT/lcode/lcode6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/PAT/lcode/lcode6.cpp.s
+.PHONY : PAT/lcode/lcode6.cpp.s
+
 PAT/lcode/lecode3.o: PAT/lcode/lecode3.cpp.o
 
 .PHONY : PAT/lcode/lecode3.o
@@ -3830,6 +3990,10 @@ help:
 	@echo "... hash-PAT92"
 	@echo "... lcode-lcode1"
 	@echo "... lcode-lcode2"
+	@echo "... lcode-lcode204"
+	@echo "... lcode-lcode4"
+	@echo "... lcode-lcode5"
+	@echo "... lcode-lcode6"
 	@echo "... lcode-lecode3"
 	@echo "... mainOpt-IOTest"
 	@echo "... mainOpt-main"
@@ -4024,6 +4188,18 @@ help:
 	@echo "... PAT/lcode/lcode2.o"
 	@echo "... PAT/lcode/lcode2.i"
 	@echo "... PAT/lcode/lcode2.s"
+	@echo "... PAT/lcode/lcode204.o"
+	@echo "... PAT/lcode/lcode204.i"
+	@echo "... PAT/lcode/lcode204.s"
+	@echo "... PAT/lcode/lcode4.o"
+	@echo "... PAT/lcode/lcode4.i"
+	@echo "... PAT/lcode/lcode4.s"
+	@echo "... PAT/lcode/lcode5.o"
+	@echo "... PAT/lcode/lcode5.i"
+	@echo "... PAT/lcode/lcode5.s"
+	@echo "... PAT/lcode/lcode6.o"
+	@echo "... PAT/lcode/lcode6.i"
+	@echo "... PAT/lcode/lcode6.s"
 	@echo "... PAT/lcode/lecode3.o"
 	@echo "... PAT/lcode/lecode3.i"
 	@echo "... PAT/lcode/lecode3.s"

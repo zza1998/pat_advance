@@ -92,7 +92,10 @@ all: CMakeFiles/math-PAT104.dir/all
 all: CMakeFiles/map-PAT91.dir/all
 all: CMakeFiles/map-PAT131.dir/all
 all: CMakeFiles/map-PAT13.dir/all
+all: CMakeFiles/lcode-lcode6.dir/all
+all: CMakeFiles/lcode-lcode4.dir/all
 all: CMakeFiles/lcode-lecode3.dir/all
+all: CMakeFiles/lcode-lcode204.dir/all
 all: CMakeFiles/lcode-lcode2.dir/all
 all: CMakeFiles/tree-PAT90.dir/all
 all: CMakeFiles/tree-PAT53.dir/all
@@ -155,6 +158,7 @@ all: CMakeFiles/map-PAT34.dir/all
 all: CMakeFiles/PAT-PAT15.dir/all
 all: CMakeFiles/tree-PAT43.dir/all
 all: CMakeFiles/math-PAT49.dir/all
+all: CMakeFiles/lcode-lcode5.dir/all
 all: CMakeFiles/PAT-PAT46.dir/all
 all: CMakeFiles/PAT-PAT02.dir/all
 all: CMakeFiles/PAT-PAT111_2.dir/all
@@ -192,7 +196,10 @@ clean: CMakeFiles/math-PAT104.dir/clean
 clean: CMakeFiles/map-PAT91.dir/clean
 clean: CMakeFiles/map-PAT131.dir/clean
 clean: CMakeFiles/map-PAT13.dir/clean
+clean: CMakeFiles/lcode-lcode6.dir/clean
+clean: CMakeFiles/lcode-lcode4.dir/clean
 clean: CMakeFiles/lcode-lecode3.dir/clean
+clean: CMakeFiles/lcode-lcode204.dir/clean
 clean: CMakeFiles/lcode-lcode2.dir/clean
 clean: CMakeFiles/tree-PAT90.dir/clean
 clean: CMakeFiles/tree-PAT53.dir/clean
@@ -255,6 +262,7 @@ clean: CMakeFiles/map-PAT34.dir/clean
 clean: CMakeFiles/PAT-PAT15.dir/clean
 clean: CMakeFiles/tree-PAT43.dir/clean
 clean: CMakeFiles/math-PAT49.dir/clean
+clean: CMakeFiles/lcode-lcode5.dir/clean
 clean: CMakeFiles/PAT-PAT46.dir/clean
 clean: CMakeFiles/PAT-PAT02.dir/clean
 clean: CMakeFiles/PAT-PAT111_2.dir/clean
@@ -273,7 +281,7 @@ clean: CMakeFiles/PAT-PAT01.dir/clean
 CMakeFiles/mainOpt-stringTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-stringTest.dir/build.make CMakeFiles/mainOpt-stringTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-stringTest.dir/build.make CMakeFiles/mainOpt-stringTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=65 "Built target mainOpt-stringTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=67 "Built target mainOpt-stringTest"
 .PHONY : CMakeFiles/mainOpt-stringTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -300,7 +308,7 @@ CMakeFiles/mainOpt-stringTest.dir/clean:
 CMakeFiles/mainOpt-queueTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-queueTest.dir/build.make CMakeFiles/mainOpt-queueTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-queueTest.dir/build.make CMakeFiles/mainOpt-queueTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=63 "Built target mainOpt-queueTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=65 "Built target mainOpt-queueTest"
 .PHONY : CMakeFiles/mainOpt-queueTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -327,7 +335,7 @@ CMakeFiles/mainOpt-queueTest.dir/clean:
 CMakeFiles/mainOpt-mapTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-mapTest.dir/build.make CMakeFiles/mainOpt-mapTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-mapTest.dir/build.make CMakeFiles/mainOpt-mapTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=62 "Built target mainOpt-mapTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=64 "Built target mainOpt-mapTest"
 .PHONY : CMakeFiles/mainOpt-mapTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -354,7 +362,7 @@ CMakeFiles/mainOpt-mapTest.dir/clean:
 CMakeFiles/mainOpt-IOTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-IOTest.dir/build.make CMakeFiles/mainOpt-IOTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-IOTest.dir/build.make CMakeFiles/mainOpt-IOTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=60 "Built target mainOpt-IOTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=62 "Built target mainOpt-IOTest"
 .PHONY : CMakeFiles/mainOpt-IOTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -381,7 +389,7 @@ CMakeFiles/mainOpt-IOTest.dir/clean:
 CMakeFiles/cmake-build-debug-PAT03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake-build-debug-PAT03.dir/build.make CMakeFiles/cmake-build-debug-PAT03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake-build-debug-PAT03.dir/build.make CMakeFiles/cmake-build-debug-PAT03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=51 "Built target cmake-build-debug-PAT03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=49 "Built target cmake-build-debug-PAT03"
 .PHONY : CMakeFiles/cmake-build-debug-PAT03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -489,12 +497,12 @@ CMakeFiles/stl-PAT98.dir/clean:
 CMakeFiles/sort-PATQsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PATQsort.dir/build.make CMakeFiles/sort-PATQsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PATQsort.dir/build.make CMakeFiles/sort-PATQsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=88,89 "Built target sort-PATQsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=89 "Built target sort-PATQsort"
 .PHONY : CMakeFiles/sort-PATQsort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sort-PATQsort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sort-PATQsort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sort-PATQsort.dir/rule
@@ -516,7 +524,7 @@ CMakeFiles/sort-PATQsort.dir/clean:
 CMakeFiles/sort-PAT80.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT80.dir/build.make CMakeFiles/sort-PAT80.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT80.dir/build.make CMakeFiles/sort-PAT80.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=86 "Built target sort-PAT80"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=87 "Built target sort-PAT80"
 .PHONY : CMakeFiles/sort-PAT80.dir/all
 
 # Build rule for subdir invocation for target.
@@ -543,7 +551,7 @@ CMakeFiles/sort-PAT80.dir/clean:
 CMakeFiles/mainOpt-setTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-setTest.dir/build.make CMakeFiles/mainOpt-setTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-setTest.dir/build.make CMakeFiles/mainOpt-setTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=64 "Built target mainOpt-setTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=66 "Built target mainOpt-setTest"
 .PHONY : CMakeFiles/mainOpt-setTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -570,7 +578,7 @@ CMakeFiles/mainOpt-setTest.dir/clean:
 CMakeFiles/sort-PAT62.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT62.dir/build.make CMakeFiles/sort-PAT62.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT62.dir/build.make CMakeFiles/sort-PAT62.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=84 "Built target sort-PAT62"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=85 "Built target sort-PAT62"
 .PHONY : CMakeFiles/sort-PAT62.dir/all
 
 # Build rule for subdir invocation for target.
@@ -597,7 +605,7 @@ CMakeFiles/sort-PAT62.dir/clean:
 CMakeFiles/sort-PAT25.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT25.dir/build.make CMakeFiles/sort-PAT25.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT25.dir/build.make CMakeFiles/sort-PAT25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=81 "Built target sort-PAT25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=82 "Built target sort-PAT25"
 .PHONY : CMakeFiles/sort-PAT25.dir/all
 
 # Build rule for subdir invocation for target.
@@ -624,12 +632,12 @@ CMakeFiles/sort-PAT25.dir/clean:
 CMakeFiles/sort-PAT12.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT12.dir/build.make CMakeFiles/sort-PAT12.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT12.dir/build.make CMakeFiles/sort-PAT12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=79 "Built target sort-PAT12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target sort-PAT12"
 .PHONY : CMakeFiles/sort-PAT12.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sort-PAT12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sort-PAT12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sort-PAT12.dir/rule
@@ -651,7 +659,7 @@ CMakeFiles/sort-PAT12.dir/clean:
 CMakeFiles/math-PAT69.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT69.dir/build.make CMakeFiles/math-PAT69.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT69.dir/build.make CMakeFiles/math-PAT69.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=76 "Built target math-PAT69"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=77 "Built target math-PAT69"
 .PHONY : CMakeFiles/math-PAT69.dir/all
 
 # Build rule for subdir invocation for target.
@@ -705,7 +713,7 @@ CMakeFiles/tree-PAT123.dir/clean:
 CMakeFiles/math-PAT104.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT104.dir/build.make CMakeFiles/math-PAT104.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT104.dir/build.make CMakeFiles/math-PAT104.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=74 "Built target math-PAT104"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=75 "Built target math-PAT104"
 .PHONY : CMakeFiles/math-PAT104.dir/all
 
 # Build rule for subdir invocation for target.
@@ -732,7 +740,7 @@ CMakeFiles/math-PAT104.dir/clean:
 CMakeFiles/map-PAT91.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT91.dir/build.make CMakeFiles/map-PAT91.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT91.dir/build.make CMakeFiles/map-PAT91.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=73 "Built target map-PAT91"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=74 "Built target map-PAT91"
 .PHONY : CMakeFiles/map-PAT91.dir/all
 
 # Build rule for subdir invocation for target.
@@ -759,7 +767,7 @@ CMakeFiles/map-PAT91.dir/clean:
 CMakeFiles/map-PAT131.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT131.dir/build.make CMakeFiles/map-PAT131.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT131.dir/build.make CMakeFiles/map-PAT131.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=69 "Built target map-PAT131"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=70 "Built target map-PAT131"
 .PHONY : CMakeFiles/map-PAT131.dir/all
 
 # Build rule for subdir invocation for target.
@@ -786,7 +794,7 @@ CMakeFiles/map-PAT131.dir/clean:
 CMakeFiles/map-PAT13.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT13.dir/build.make CMakeFiles/map-PAT13.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT13.dir/build.make CMakeFiles/map-PAT13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=68 "Built target map-PAT13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=69 "Built target map-PAT13"
 .PHONY : CMakeFiles/map-PAT13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -807,13 +815,67 @@ CMakeFiles/map-PAT13.dir/clean:
 .PHONY : CMakeFiles/map-PAT13.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/lcode-lcode6.dir
+
+# All Build rule for target.
+CMakeFiles/lcode-lcode6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target lcode-lcode6"
+.PHONY : CMakeFiles/lcode-lcode6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcode-lcode6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lcode-lcode6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lcode-lcode6.dir/rule
+
+# Convenience name for target.
+lcode-lcode6: CMakeFiles/lcode-lcode6.dir/rule
+
+.PHONY : lcode-lcode6
+
+# clean rule for target.
+CMakeFiles/lcode-lcode6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/clean
+.PHONY : CMakeFiles/lcode-lcode6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lcode-lcode4.dir
+
+# All Build rule for target.
+CMakeFiles/lcode-lcode4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=57 "Built target lcode-lcode4"
+.PHONY : CMakeFiles/lcode-lcode4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcode-lcode4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lcode-lcode4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lcode-lcode4.dir/rule
+
+# Convenience name for target.
+lcode-lcode4: CMakeFiles/lcode-lcode4.dir/rule
+
+.PHONY : lcode-lcode4
+
+# clean rule for target.
+CMakeFiles/lcode-lcode4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode4.dir/build.make CMakeFiles/lcode-lcode4.dir/clean
+.PHONY : CMakeFiles/lcode-lcode4.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/lcode-lecode3.dir
 
 # All Build rule for target.
 CMakeFiles/lcode-lecode3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lecode3.dir/build.make CMakeFiles/lcode-lecode3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lecode3.dir/build.make CMakeFiles/lcode-lecode3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=59 "Built target lcode-lecode3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=61 "Built target lcode-lecode3"
 .PHONY : CMakeFiles/lcode-lecode3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -834,13 +896,40 @@ CMakeFiles/lcode-lecode3.dir/clean:
 .PHONY : CMakeFiles/lcode-lecode3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/lcode-lcode204.dir
+
+# All Build rule for target.
+CMakeFiles/lcode-lcode204.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=56 "Built target lcode-lcode204"
+.PHONY : CMakeFiles/lcode-lcode204.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcode-lcode204.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lcode-lcode204.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lcode-lcode204.dir/rule
+
+# Convenience name for target.
+lcode-lcode204: CMakeFiles/lcode-lcode204.dir/rule
+
+.PHONY : lcode-lcode204
+
+# clean rule for target.
+CMakeFiles/lcode-lcode204.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/clean
+.PHONY : CMakeFiles/lcode-lcode204.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/lcode-lcode2.dir
 
 # All Build rule for target.
 CMakeFiles/lcode-lcode2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode2.dir/build.make CMakeFiles/lcode-lcode2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode2.dir/build.make CMakeFiles/lcode-lcode2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=58 "Built target lcode-lcode2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=55 "Built target lcode-lcode2"
 .PHONY : CMakeFiles/lcode-lcode2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -921,12 +1010,12 @@ CMakeFiles/tree-PAT53.dir/clean:
 CMakeFiles/hash-PAT92.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT92.dir/build.make CMakeFiles/hash-PAT92.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT92.dir/build.make CMakeFiles/hash-PAT92.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target hash-PAT92"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=53 "Built target hash-PAT92"
 .PHONY : CMakeFiles/hash-PAT92.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hash-PAT92.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hash-PAT92.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hash-PAT92.dir/rule
@@ -948,7 +1037,7 @@ CMakeFiles/hash-PAT92.dir/clean:
 CMakeFiles/hash-PAT50.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT50.dir/build.make CMakeFiles/hash-PAT50.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT50.dir/build.make CMakeFiles/hash-PAT50.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=53 "Built target hash-PAT50"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=51 "Built target hash-PAT50"
 .PHONY : CMakeFiles/hash-PAT50.dir/all
 
 # Build rule for subdir invocation for target.
@@ -975,7 +1064,7 @@ CMakeFiles/hash-PAT50.dir/clean:
 CMakeFiles/sort-PAT75.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT75.dir/build.make CMakeFiles/sort-PAT75.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT75.dir/build.make CMakeFiles/sort-PAT75.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=85 "Built target sort-PAT75"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=86 "Built target sort-PAT75"
 .PHONY : CMakeFiles/sort-PAT75.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1002,7 +1091,7 @@ CMakeFiles/sort-PAT75.dir/clean:
 CMakeFiles/hash-PAT41.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT41.dir/build.make CMakeFiles/hash-PAT41.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT41.dir/build.make CMakeFiles/hash-PAT41.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=52 "Built target hash-PAT41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=50 "Built target hash-PAT41"
 .PHONY : CMakeFiles/hash-PAT41.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1056,12 +1145,12 @@ CMakeFiles/tree-PAT66.dir/clean:
 CMakeFiles/math-PAT8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT8.dir/build.make CMakeFiles/math-PAT8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT8.dir/build.make CMakeFiles/math-PAT8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target math-PAT8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=78 "Built target math-PAT8"
 .PHONY : CMakeFiles/math-PAT8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/math-PAT8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/math-PAT8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/math-PAT8.dir/rule
@@ -1083,7 +1172,7 @@ CMakeFiles/math-PAT8.dir/clean:
 CMakeFiles/PAT-PAT82.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT82.dir/build.make CMakeFiles/PAT-PAT82.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT82.dir/build.make CMakeFiles/PAT-PAT82.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=43 "Built target PAT-PAT82"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=42 "Built target PAT-PAT82"
 .PHONY : CMakeFiles/PAT-PAT82.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1110,7 +1199,7 @@ CMakeFiles/PAT-PAT82.dir/clean:
 CMakeFiles/PAT-PAT_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT_02.dir/build.make CMakeFiles/PAT-PAT_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT_02.dir/build.make CMakeFiles/PAT-PAT_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=50 "Built target PAT-PAT_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=48 "Built target PAT-PAT_02"
 .PHONY : CMakeFiles/PAT-PAT_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1137,7 +1226,7 @@ CMakeFiles/PAT-PAT_02.dir/clean:
 CMakeFiles/sort-PAT28.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT28.dir/build.make CMakeFiles/sort-PAT28.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT28.dir/build.make CMakeFiles/sort-PAT28.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=82 "Built target sort-PAT28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=83 "Built target sort-PAT28"
 .PHONY : CMakeFiles/sort-PAT28.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1164,7 +1253,7 @@ CMakeFiles/sort-PAT28.dir/clean:
 CMakeFiles/PAT-PAT89.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT89.dir/build.make CMakeFiles/PAT-PAT89.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT89.dir/build.make CMakeFiles/PAT-PAT89.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=46 "Built target PAT-PAT89"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=44 "Built target PAT-PAT89"
 .PHONY : CMakeFiles/PAT-PAT89.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1191,7 +1280,7 @@ CMakeFiles/PAT-PAT89.dir/clean:
 CMakeFiles/PAT-PAT38.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT38.dir/build.make CMakeFiles/PAT-PAT38.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT38.dir/build.make CMakeFiles/PAT-PAT38.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=28 "Built target PAT-PAT38"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=27 "Built target PAT-PAT38"
 .PHONY : CMakeFiles/PAT-PAT38.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1218,12 +1307,12 @@ CMakeFiles/PAT-PAT38.dir/clean:
 CMakeFiles/PAT-PAT85.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT85.dir/build.make CMakeFiles/PAT-PAT85.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT85.dir/build.make CMakeFiles/PAT-PAT85.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target PAT-PAT85"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=43 "Built target PAT-PAT85"
 .PHONY : CMakeFiles/PAT-PAT85.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PAT-PAT85.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PAT-PAT85.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PAT-PAT85.dir/rule
@@ -1245,7 +1334,7 @@ CMakeFiles/PAT-PAT85.dir/clean:
 CMakeFiles/PAT-PAT77.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT77.dir/build.make CMakeFiles/PAT-PAT77.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT77.dir/build.make CMakeFiles/PAT-PAT77.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=40 "Built target PAT-PAT77"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=38 "Built target PAT-PAT77"
 .PHONY : CMakeFiles/PAT-PAT77.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1272,12 +1361,12 @@ CMakeFiles/PAT-PAT77.dir/clean:
 CMakeFiles/PAT-PAT117.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT117.dir/build.make CMakeFiles/PAT-PAT117.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT117.dir/build.make CMakeFiles/PAT-PAT117.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target PAT-PAT117"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=11 "Built target PAT-PAT117"
 .PHONY : CMakeFiles/PAT-PAT117.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PAT-PAT117.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PAT-PAT117.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PAT-PAT117.dir/rule
@@ -1299,7 +1388,7 @@ CMakeFiles/PAT-PAT117.dir/clean:
 CMakeFiles/PAT-PAT65.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT65.dir/build.make CMakeFiles/PAT-PAT65.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT65.dir/build.make CMakeFiles/PAT-PAT65.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=37 "Built target PAT-PAT65"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=35 "Built target PAT-PAT65"
 .PHONY : CMakeFiles/PAT-PAT65.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1326,7 +1415,7 @@ CMakeFiles/PAT-PAT65.dir/clean:
 CMakeFiles/PAT-PAT61.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT61.dir/build.make CMakeFiles/PAT-PAT61.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT61.dir/build.make CMakeFiles/PAT-PAT61.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=36 "Built target PAT-PAT61"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=34 "Built target PAT-PAT61"
 .PHONY : CMakeFiles/PAT-PAT61.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1380,7 +1469,7 @@ CMakeFiles/tree-PAT04.dir/clean:
 CMakeFiles/map-PAT21.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT21.dir/build.make CMakeFiles/map-PAT21.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT21.dir/build.make CMakeFiles/map-PAT21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=71 "Built target map-PAT21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=72 "Built target map-PAT21"
 .PHONY : CMakeFiles/map-PAT21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1407,7 +1496,7 @@ CMakeFiles/map-PAT21.dir/clean:
 CMakeFiles/PAT-PAT48.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT48.dir/build.make CMakeFiles/PAT-PAT48.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT48.dir/build.make CMakeFiles/PAT-PAT48.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=32 "Built target PAT-PAT48"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=31 "Built target PAT-PAT48"
 .PHONY : CMakeFiles/PAT-PAT48.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1434,7 +1523,7 @@ CMakeFiles/PAT-PAT48.dir/clean:
 CMakeFiles/PAT-PAT93.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT93.dir/build.make CMakeFiles/PAT-PAT93.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT93.dir/build.make CMakeFiles/PAT-PAT93.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=47 "Built target PAT-PAT93"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=45 "Built target PAT-PAT93"
 .PHONY : CMakeFiles/PAT-PAT93.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1461,7 +1550,7 @@ CMakeFiles/PAT-PAT93.dir/clean:
 CMakeFiles/PAT-PAT44.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT44.dir/build.make CMakeFiles/PAT-PAT44.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT44.dir/build.make CMakeFiles/PAT-PAT44.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=30 "Built target PAT-PAT44"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=29 "Built target PAT-PAT44"
 .PHONY : CMakeFiles/PAT-PAT44.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1488,12 +1577,12 @@ CMakeFiles/PAT-PAT44.dir/clean:
 CMakeFiles/PAT-PAT78.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT78.dir/build.make CMakeFiles/PAT-PAT78.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT78.dir/build.make CMakeFiles/PAT-PAT78.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=41 "Built target PAT-PAT78"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target PAT-PAT78"
 .PHONY : CMakeFiles/PAT-PAT78.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PAT-PAT78.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PAT-PAT78.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PAT-PAT78.dir/rule
@@ -1515,7 +1604,7 @@ CMakeFiles/PAT-PAT78.dir/clean:
 CMakeFiles/PAT-PAT37.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT37.dir/build.make CMakeFiles/PAT-PAT37.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT37.dir/build.make CMakeFiles/PAT-PAT37.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=27 "Built target PAT-PAT37"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=26 "Built target PAT-PAT37"
 .PHONY : CMakeFiles/PAT-PAT37.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1542,7 +1631,7 @@ CMakeFiles/PAT-PAT37.dir/clean:
 CMakeFiles/PAT-PAT138.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT138.dir/build.make CMakeFiles/PAT-PAT138.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT138.dir/build.make CMakeFiles/PAT-PAT138.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=15 "Built target PAT-PAT138"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=14 "Built target PAT-PAT138"
 .PHONY : CMakeFiles/PAT-PAT138.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1569,7 +1658,7 @@ CMakeFiles/PAT-PAT138.dir/clean:
 CMakeFiles/PAT-PAT32.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT32.dir/build.make CMakeFiles/PAT-PAT32.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT32.dir/build.make CMakeFiles/PAT-PAT32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=24 "Built target PAT-PAT32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=23 "Built target PAT-PAT32"
 .PHONY : CMakeFiles/PAT-PAT32.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1596,7 +1685,7 @@ CMakeFiles/PAT-PAT32.dir/clean:
 CMakeFiles/mainOpt-main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-main.dir/build.make CMakeFiles/mainOpt-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-main.dir/build.make CMakeFiles/mainOpt-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=61 "Built target mainOpt-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=63 "Built target mainOpt-main"
 .PHONY : CMakeFiles/mainOpt-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1623,7 +1712,7 @@ CMakeFiles/mainOpt-main.dir/clean:
 CMakeFiles/map-PAT18.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT18.dir/build.make CMakeFiles/map-PAT18.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT18.dir/build.make CMakeFiles/map-PAT18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=70 "Built target map-PAT18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=71 "Built target map-PAT18"
 .PHONY : CMakeFiles/map-PAT18.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1650,7 +1739,7 @@ CMakeFiles/map-PAT18.dir/clean:
 CMakeFiles/PAT-PAT35.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT35.dir/build.make CMakeFiles/PAT-PAT35.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT35.dir/build.make CMakeFiles/PAT-PAT35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=25 "Built target PAT-PAT35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=24 "Built target PAT-PAT35"
 .PHONY : CMakeFiles/PAT-PAT35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1677,7 +1766,7 @@ CMakeFiles/PAT-PAT35.dir/clean:
 CMakeFiles/PAT-PAT23.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT23.dir/build.make CMakeFiles/PAT-PAT23.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT23.dir/build.make CMakeFiles/PAT-PAT23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=19 "Built target PAT-PAT23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=18 "Built target PAT-PAT23"
 .PHONY : CMakeFiles/PAT-PAT23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1704,7 +1793,7 @@ CMakeFiles/PAT-PAT23.dir/clean:
 CMakeFiles/sort-PAT55.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT55.dir/build.make CMakeFiles/sort-PAT55.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT55.dir/build.make CMakeFiles/sort-PAT55.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=83 "Built target sort-PAT55"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=84 "Built target sort-PAT55"
 .PHONY : CMakeFiles/sort-PAT55.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1731,7 +1820,7 @@ CMakeFiles/sort-PAT55.dir/clean:
 CMakeFiles/PAT-PAT42.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT42.dir/build.make CMakeFiles/PAT-PAT42.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT42.dir/build.make CMakeFiles/PAT-PAT42.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=29 "Built target PAT-PAT42"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=28 "Built target PAT-PAT42"
 .PHONY : CMakeFiles/PAT-PAT42.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1758,7 +1847,7 @@ CMakeFiles/PAT-PAT42.dir/clean:
 CMakeFiles/PAT-PAT19.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT19.dir/build.make CMakeFiles/PAT-PAT19.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT19.dir/build.make CMakeFiles/PAT-PAT19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=18 "Built target PAT-PAT19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=17 "Built target PAT-PAT19"
 .PHONY : CMakeFiles/PAT-PAT19.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1785,12 +1874,12 @@ CMakeFiles/PAT-PAT19.dir/clean:
 CMakeFiles/mainOpt-vectorTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-vectorTest.dir/build.make CMakeFiles/mainOpt-vectorTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-vectorTest.dir/build.make CMakeFiles/mainOpt-vectorTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target mainOpt-vectorTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=68 "Built target mainOpt-vectorTest"
 .PHONY : CMakeFiles/mainOpt-vectorTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mainOpt-vectorTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mainOpt-vectorTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/mainOpt-vectorTest.dir/rule
@@ -1839,7 +1928,7 @@ CMakeFiles/PAT-PAT27.dir/clean:
 CMakeFiles/PAT-PAT97.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT97.dir/build.make CMakeFiles/PAT-PAT97.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT97.dir/build.make CMakeFiles/PAT-PAT97.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=49 "Built target PAT-PAT97"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=47 "Built target PAT-PAT97"
 .PHONY : CMakeFiles/PAT-PAT97.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1866,7 +1955,7 @@ CMakeFiles/PAT-PAT97.dir/clean:
 CMakeFiles/PAT-PAT96.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT96.dir/build.make CMakeFiles/PAT-PAT96.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT96.dir/build.make CMakeFiles/PAT-PAT96.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=48 "Built target PAT-PAT96"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=46 "Built target PAT-PAT96"
 .PHONY : CMakeFiles/PAT-PAT96.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1920,7 +2009,7 @@ CMakeFiles/PAT-PAT09.dir/clean:
 CMakeFiles/PAT-PAT59.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT59.dir/build.make CMakeFiles/PAT-PAT59.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT59.dir/build.make CMakeFiles/PAT-PAT59.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=35 "Built target PAT-PAT59"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=33 "Built target PAT-PAT59"
 .PHONY : CMakeFiles/PAT-PAT59.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1947,12 +2036,12 @@ CMakeFiles/PAT-PAT59.dir/clean:
 CMakeFiles/PAT-PAT29.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT29.dir/build.make CMakeFiles/PAT-PAT29.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT29.dir/build.make CMakeFiles/PAT-PAT29.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target PAT-PAT29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=22 "Built target PAT-PAT29"
 .PHONY : CMakeFiles/PAT-PAT29.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PAT-PAT29.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PAT-PAT29.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PAT-PAT29.dir/rule
@@ -1974,7 +2063,7 @@ CMakeFiles/PAT-PAT29.dir/clean:
 CMakeFiles/hash-PAT84.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT84.dir/build.make CMakeFiles/hash-PAT84.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash-PAT84.dir/build.make CMakeFiles/hash-PAT84.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=54 "Built target hash-PAT84"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=52 "Built target hash-PAT84"
 .PHONY : CMakeFiles/hash-PAT84.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2001,7 +2090,7 @@ CMakeFiles/hash-PAT84.dir/clean:
 CMakeFiles/PAT-PAT139.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT139.dir/build.make CMakeFiles/PAT-PAT139.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT139.dir/build.make CMakeFiles/PAT-PAT139.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=16 "Built target PAT-PAT139"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=15 "Built target PAT-PAT139"
 .PHONY : CMakeFiles/PAT-PAT139.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2055,7 +2144,7 @@ CMakeFiles/stl-PAT51.dir/clean:
 CMakeFiles/lcode-lcode1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode1.dir/build.make CMakeFiles/lcode-lcode1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode1.dir/build.make CMakeFiles/lcode-lcode1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=57 "Built target lcode-lcode1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=54 "Built target lcode-lcode1"
 .PHONY : CMakeFiles/lcode-lcode1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2082,7 +2171,7 @@ CMakeFiles/lcode-lcode1.dir/clean:
 CMakeFiles/PAT-PAT73.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT73.dir/build.make CMakeFiles/PAT-PAT73.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT73.dir/build.make CMakeFiles/PAT-PAT73.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=39 "Built target PAT-PAT73"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=37 "Built target PAT-PAT73"
 .PHONY : CMakeFiles/PAT-PAT73.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2136,7 +2225,7 @@ CMakeFiles/PAT-PAT100.dir/clean:
 CMakeFiles/sort-PAT16.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT16.dir/build.make CMakeFiles/sort-PAT16.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT16.dir/build.make CMakeFiles/sort-PAT16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=80 "Built target sort-PAT16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=81 "Built target sort-PAT16"
 .PHONY : CMakeFiles/sort-PAT16.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2190,12 +2279,12 @@ CMakeFiles/PAT-PAT11.dir/clean:
 CMakeFiles/PAT-PAT24.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT24.dir/build.make CMakeFiles/PAT-PAT24.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT24.dir/build.make CMakeFiles/PAT-PAT24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=20 "Built target PAT-PAT24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target PAT-PAT24"
 .PHONY : CMakeFiles/PAT-PAT24.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PAT-PAT24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PAT-PAT24.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PAT-PAT24.dir/rule
@@ -2217,7 +2306,7 @@ CMakeFiles/PAT-PAT24.dir/clean:
 CMakeFiles/PAT-PAT137.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT137.dir/build.make CMakeFiles/PAT-PAT137.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT137.dir/build.make CMakeFiles/PAT-PAT137.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=14 "Built target PAT-PAT137"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=13 "Built target PAT-PAT137"
 .PHONY : CMakeFiles/PAT-PAT137.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2244,7 +2333,7 @@ CMakeFiles/PAT-PAT137.dir/clean:
 CMakeFiles/PAT-PAT36.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT36.dir/build.make CMakeFiles/PAT-PAT36.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT36.dir/build.make CMakeFiles/PAT-PAT36.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=26 "Built target PAT-PAT36"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=25 "Built target PAT-PAT36"
 .PHONY : CMakeFiles/PAT-PAT36.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2271,7 +2360,7 @@ CMakeFiles/PAT-PAT36.dir/clean:
 CMakeFiles/PAT-PAT136.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT136.dir/build.make CMakeFiles/PAT-PAT136.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT136.dir/build.make CMakeFiles/PAT-PAT136.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=13 "Built target PAT-PAT136"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=12 "Built target PAT-PAT136"
 .PHONY : CMakeFiles/PAT-PAT136.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2298,7 +2387,7 @@ CMakeFiles/PAT-PAT136.dir/clean:
 CMakeFiles/sort-PAT95.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT95.dir/build.make CMakeFiles/sort-PAT95.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT95.dir/build.make CMakeFiles/sort-PAT95.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=87 "Built target sort-PAT95"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=88 "Built target sort-PAT95"
 .PHONY : CMakeFiles/sort-PAT95.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2325,12 +2414,12 @@ CMakeFiles/sort-PAT95.dir/clean:
 CMakeFiles/PAT-PAT58.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT58.dir/build.make CMakeFiles/PAT-PAT58.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT58.dir/build.make CMakeFiles/PAT-PAT58.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target PAT-PAT58"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=32 "Built target PAT-PAT58"
 .PHONY : CMakeFiles/PAT-PAT58.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PAT-PAT58.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PAT-PAT58.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PAT-PAT58.dir/rule
@@ -2379,7 +2468,7 @@ CMakeFiles/PAT-PAT101.dir/clean:
 CMakeFiles/PAT-PAT81.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT81.dir/build.make CMakeFiles/PAT-PAT81.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT81.dir/build.make CMakeFiles/PAT-PAT81.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=42 "Built target PAT-PAT81"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=41 "Built target PAT-PAT81"
 .PHONY : CMakeFiles/PAT-PAT81.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2406,7 +2495,7 @@ CMakeFiles/PAT-PAT81.dir/clean:
 CMakeFiles/map-PAT34.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT34.dir/build.make CMakeFiles/map-PAT34.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT34.dir/build.make CMakeFiles/map-PAT34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=72 "Built target map-PAT34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=73 "Built target map-PAT34"
 .PHONY : CMakeFiles/map-PAT34.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2433,7 +2522,7 @@ CMakeFiles/map-PAT34.dir/clean:
 CMakeFiles/PAT-PAT15.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT15.dir/build.make CMakeFiles/PAT-PAT15.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT15.dir/build.make CMakeFiles/PAT-PAT15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=17 "Built target PAT-PAT15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=16 "Built target PAT-PAT15"
 .PHONY : CMakeFiles/PAT-PAT15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2487,7 +2576,7 @@ CMakeFiles/tree-PAT43.dir/clean:
 CMakeFiles/math-PAT49.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT49.dir/build.make CMakeFiles/math-PAT49.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT49.dir/build.make CMakeFiles/math-PAT49.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=75 "Built target math-PAT49"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=76 "Built target math-PAT49"
 .PHONY : CMakeFiles/math-PAT49.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2508,13 +2597,40 @@ CMakeFiles/math-PAT49.dir/clean:
 .PHONY : CMakeFiles/math-PAT49.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/lcode-lcode5.dir
+
+# All Build rule for target.
+CMakeFiles/lcode-lcode5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=58 "Built target lcode-lcode5"
+.PHONY : CMakeFiles/lcode-lcode5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcode-lcode5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lcode-lcode5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lcode-lcode5.dir/rule
+
+# Convenience name for target.
+lcode-lcode5: CMakeFiles/lcode-lcode5.dir/rule
+
+.PHONY : lcode-lcode5
+
+# clean rule for target.
+CMakeFiles/lcode-lcode5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/clean
+.PHONY : CMakeFiles/lcode-lcode5.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/PAT-PAT46.dir
 
 # All Build rule for target.
 CMakeFiles/PAT-PAT46.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT46.dir/build.make CMakeFiles/PAT-PAT46.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT46.dir/build.make CMakeFiles/PAT-PAT46.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=31 "Built target PAT-PAT46"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=30 "Built target PAT-PAT46"
 .PHONY : CMakeFiles/PAT-PAT46.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2595,7 +2711,7 @@ CMakeFiles/PAT-PAT111_2.dir/clean:
 CMakeFiles/PAT-PAT67.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT67.dir/build.make CMakeFiles/PAT-PAT67.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT67.dir/build.make CMakeFiles/PAT-PAT67.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=38 "Built target PAT-PAT67"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug/CMakeFiles --progress-num=36 "Built target PAT-PAT67"
 .PHONY : CMakeFiles/PAT-PAT67.dir/all
 
 # Build rule for subdir invocation for target.
