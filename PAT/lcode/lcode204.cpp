@@ -1,6 +1,6 @@
-//
-// Created by 周子安 on 2021/9/3.
-//
+/**
+ * 超级无敌筛选素数
+ */
 #include "cmath"
 #include "iostream"
 using namespace std;
@@ -16,16 +16,17 @@ int isPrime(int n){
 
 int countPrimes(int n) {
     int arr[n+1];
+    fill(arr,arr+n+1,0);
     if(n<3) return 0;
     int sum = 0;
     for (int i = 2; i <= sqrt(n); ++i) {
         if(isPrime(i)){
-            for (int j = 2; j*i <= n; ++j) {
+            for (int j = i; j*i <= n; ++j) {
                 arr[j*i] = 1;
             }
         }
     }
-    for (int i = 0; i <= n; ++i) {
+    for (int i = 2; i < n; ++i) {
         if(arr[i] == 0){
             sum++;
         }
@@ -33,5 +34,5 @@ int countPrimes(int n) {
     return sum;
 }
 int main(){
-    cout<< countPrimes(5000000);
+    cout<< countPrimes(3);
 }
