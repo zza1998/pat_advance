@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /Users/zhouzian/Documents/work_space/patTest/cmake-build-debu
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,17 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mainOpt-stringTest
+# Target rules for targets named mainOpt-vectorTest
 
 # Build rule for target.
-mainOpt-stringTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-stringTest
-.PHONY : mainOpt-stringTest
+mainOpt-vectorTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-vectorTest
+.PHONY : mainOpt-vectorTest
 
 # fast build rule for target.
-mainOpt-stringTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-stringTest.dir/build.make CMakeFiles/mainOpt-stringTest.dir/build
-.PHONY : mainOpt-stringTest/fast
+mainOpt-vectorTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-vectorTest.dir/build.make CMakeFiles/mainOpt-vectorTest.dir/build
+.PHONY : mainOpt-vectorTest/fast
+
+#=============================================================================
+# Target rules for targets named mainOpt-setTest
+
+# Build rule for target.
+mainOpt-setTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-setTest
+.PHONY : mainOpt-setTest
+
+# fast build rule for target.
+mainOpt-setTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-setTest.dir/build.make CMakeFiles/mainOpt-setTest.dir/build
+.PHONY : mainOpt-setTest/fast
 
 #=============================================================================
 # Target rules for targets named mainOpt-queueTest
@@ -154,19 +167,6 @@ mainOpt-queueTest: cmake_check_build_system
 mainOpt-queueTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-queueTest.dir/build.make CMakeFiles/mainOpt-queueTest.dir/build
 .PHONY : mainOpt-queueTest/fast
-
-#=============================================================================
-# Target rules for targets named mainOpt-mapTest
-
-# Build rule for target.
-mainOpt-mapTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-mapTest
-.PHONY : mainOpt-mapTest
-
-# fast build rule for target.
-mainOpt-mapTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-mapTest.dir/build.make CMakeFiles/mainOpt-mapTest.dir/build
-.PHONY : mainOpt-mapTest/fast
 
 #=============================================================================
 # Target rules for targets named mainOpt-IOTest
@@ -195,6 +195,45 @@ cmake-build-debug-PAT03/fast:
 .PHONY : cmake-build-debug-PAT03/fast
 
 #=============================================================================
+# Target rules for targets named math-PAT8
+
+# Build rule for target.
+math-PAT8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math-PAT8
+.PHONY : math-PAT8
+
+# fast build rule for target.
+math-PAT8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT8.dir/build.make CMakeFiles/math-PAT8.dir/build
+.PHONY : math-PAT8/fast
+
+#=============================================================================
+# Target rules for targets named lcode-lecode3
+
+# Build rule for target.
+lcode-lecode3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lecode3
+.PHONY : lcode-lecode3
+
+# fast build rule for target.
+lcode-lecode3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lecode3.dir/build.make CMakeFiles/lcode-lecode3.dir/build
+.PHONY : lcode-lecode3/fast
+
+#=============================================================================
+# Target rules for targets named math-PAT104
+
+# Build rule for target.
+math-PAT104: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math-PAT104
+.PHONY : math-PAT104
+
+# fast build rule for target.
+math-PAT104/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT104.dir/build.make CMakeFiles/math-PAT104.dir/build
+.PHONY : math-PAT104/fast
+
+#=============================================================================
 # Target rules for targets named tree-PAT94
 
 # Build rule for target.
@@ -219,6 +258,19 @@ tree-PAT79: cmake_check_build_system
 tree-PAT79/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT79.dir/build.make CMakeFiles/tree-PAT79.dir/build
 .PHONY : tree-PAT79/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT36
+
+# Build rule for target.
+PAT-PAT36: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT36
+.PHONY : PAT-PAT36
+
+# fast build rule for target.
+PAT-PAT36/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT36.dir/build.make CMakeFiles/PAT-PAT36.dir/build
+.PHONY : PAT-PAT36/fast
 
 #=============================================================================
 # Target rules for targets named stl-PAT98
@@ -260,19 +312,6 @@ sort-PAT80/fast:
 .PHONY : sort-PAT80/fast
 
 #=============================================================================
-# Target rules for targets named mainOpt-setTest
-
-# Build rule for target.
-mainOpt-setTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-setTest
-.PHONY : mainOpt-setTest
-
-# fast build rule for target.
-mainOpt-setTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-setTest.dir/build.make CMakeFiles/mainOpt-setTest.dir/build
-.PHONY : mainOpt-setTest/fast
-
-#=============================================================================
 # Target rules for targets named sort-PAT62
 
 # Build rule for target.
@@ -299,6 +338,19 @@ sort-PAT25/fast:
 .PHONY : sort-PAT25/fast
 
 #=============================================================================
+# Target rules for targets named PAT-PAT146
+
+# Build rule for target.
+PAT-PAT146: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT146
+.PHONY : PAT-PAT146
+
+# fast build rule for target.
+PAT-PAT146/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT146.dir/build.make CMakeFiles/PAT-PAT146.dir/build
+.PHONY : PAT-PAT146/fast
+
+#=============================================================================
 # Target rules for targets named sort-PAT12
 
 # Build rule for target.
@@ -310,6 +362,19 @@ sort-PAT12: cmake_check_build_system
 sort-PAT12/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT12.dir/build.make CMakeFiles/sort-PAT12.dir/build
 .PHONY : sort-PAT12/fast
+
+#=============================================================================
+# Target rules for targets named sort-PAT75
+
+# Build rule for target.
+sort-PAT75: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort-PAT75
+.PHONY : sort-PAT75
+
+# fast build rule for target.
+sort-PAT75/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT75.dir/build.make CMakeFiles/sort-PAT75.dir/build
+.PHONY : sort-PAT75/fast
 
 #=============================================================================
 # Target rules for targets named math-PAT69
@@ -325,6 +390,19 @@ math-PAT69/fast:
 .PHONY : math-PAT69/fast
 
 #=============================================================================
+# Target rules for targets named tree-PAT04
+
+# Build rule for target.
+tree-PAT04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree-PAT04
+.PHONY : tree-PAT04
+
+# fast build rule for target.
+tree-PAT04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT04.dir/build.make CMakeFiles/tree-PAT04.dir/build
+.PHONY : tree-PAT04/fast
+
+#=============================================================================
 # Target rules for targets named tree-PAT123
 
 # Build rule for target.
@@ -338,19 +416,6 @@ tree-PAT123/fast:
 .PHONY : tree-PAT123/fast
 
 #=============================================================================
-# Target rules for targets named math-PAT104
-
-# Build rule for target.
-math-PAT104: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math-PAT104
-.PHONY : math-PAT104
-
-# fast build rule for target.
-math-PAT104/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT104.dir/build.make CMakeFiles/math-PAT104.dir/build
-.PHONY : math-PAT104/fast
-
-#=============================================================================
 # Target rules for targets named map-PAT91
 
 # Build rule for target.
@@ -362,6 +427,45 @@ map-PAT91: cmake_check_build_system
 map-PAT91/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT91.dir/build.make CMakeFiles/map-PAT91.dir/build
 .PHONY : map-PAT91/fast
+
+#=============================================================================
+# Target rules for targets named sort-PAT16
+
+# Build rule for target.
+sort-PAT16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort-PAT16
+.PHONY : sort-PAT16
+
+# fast build rule for target.
+sort-PAT16/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT16.dir/build.make CMakeFiles/sort-PAT16.dir/build
+.PHONY : sort-PAT16/fast
+
+#=============================================================================
+# Target rules for targets named map-PAT150
+
+# Build rule for target.
+map-PAT150: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map-PAT150
+.PHONY : map-PAT150
+
+# fast build rule for target.
+map-PAT150/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT150.dir/build.make CMakeFiles/map-PAT150.dir/build
+.PHONY : map-PAT150/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT78
+
+# Build rule for target.
+PAT-PAT78: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT78
+.PHONY : PAT-PAT78
+
+# fast build rule for target.
+PAT-PAT78/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT78.dir/build.make CMakeFiles/PAT-PAT78.dir/build
+.PHONY : PAT-PAT78/fast
 
 #=============================================================================
 # Target rules for targets named map-PAT131
@@ -416,19 +520,6 @@ lcode-lcode4/fast:
 .PHONY : lcode-lcode4/fast
 
 #=============================================================================
-# Target rules for targets named lcode-lecode3
-
-# Build rule for target.
-lcode-lecode3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lecode3
-.PHONY : lcode-lecode3
-
-# fast build rule for target.
-lcode-lecode3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lecode3.dir/build.make CMakeFiles/lcode-lecode3.dir/build
-.PHONY : lcode-lecode3/fast
-
-#=============================================================================
 # Target rules for targets named lcode-lcode204
 
 # Build rule for target.
@@ -440,6 +531,19 @@ lcode-lcode204: cmake_check_build_system
 lcode-lcode204/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode204.dir/build.make CMakeFiles/lcode-lcode204.dir/build
 .PHONY : lcode-lcode204/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT32
+
+# Build rule for target.
+PAT-PAT32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT32
+.PHONY : PAT-PAT32
+
+# fast build rule for target.
+PAT-PAT32/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT32.dir/build.make CMakeFiles/PAT-PAT32.dir/build
+.PHONY : PAT-PAT32/fast
 
 #=============================================================================
 # Target rules for targets named lcode-lcode2
@@ -468,6 +572,19 @@ tree-PAT90/fast:
 .PHONY : tree-PAT90/fast
 
 #=============================================================================
+# Target rules for targets named mainOpt-main
+
+# Build rule for target.
+mainOpt-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-main
+.PHONY : mainOpt-main
+
+# fast build rule for target.
+mainOpt-main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-main.dir/build.make CMakeFiles/mainOpt-main.dir/build
+.PHONY : mainOpt-main/fast
+
+#=============================================================================
 # Target rules for targets named tree-PAT53
 
 # Build rule for target.
@@ -479,6 +596,19 @@ tree-PAT53: cmake_check_build_system
 tree-PAT53/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT53.dir/build.make CMakeFiles/tree-PAT53.dir/build
 .PHONY : tree-PAT53/fast
+
+#=============================================================================
+# Target rules for targets named lcode-lcode649
+
+# Build rule for target.
+lcode-lcode649: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode649
+.PHONY : lcode-lcode649
+
+# fast build rule for target.
+lcode-lcode649/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode649.dir/build.make CMakeFiles/lcode-lcode649.dir/build
+.PHONY : lcode-lcode649/fast
 
 #=============================================================================
 # Target rules for targets named hash-PAT92
@@ -507,17 +637,17 @@ hash-PAT50/fast:
 .PHONY : hash-PAT50/fast
 
 #=============================================================================
-# Target rules for targets named sort-PAT75
+# Target rules for targets named PAT-PAT65
 
 # Build rule for target.
-sort-PAT75: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort-PAT75
-.PHONY : sort-PAT75
+PAT-PAT65: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT65
+.PHONY : PAT-PAT65
 
 # fast build rule for target.
-sort-PAT75/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT75.dir/build.make CMakeFiles/sort-PAT75.dir/build
-.PHONY : sort-PAT75/fast
+PAT-PAT65/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT65.dir/build.make CMakeFiles/PAT-PAT65.dir/build
+.PHONY : PAT-PAT65/fast
 
 #=============================================================================
 # Target rules for targets named hash-PAT41
@@ -533,56 +663,69 @@ hash-PAT41/fast:
 .PHONY : hash-PAT41/fast
 
 #=============================================================================
-# Target rules for targets named tree-PAT66
+# Target rules for targets named tree-PAT151
 
 # Build rule for target.
-tree-PAT66: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree-PAT66
-.PHONY : tree-PAT66
+tree-PAT151: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree-PAT151
+.PHONY : tree-PAT151
 
 # fast build rule for target.
-tree-PAT66/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT66.dir/build.make CMakeFiles/tree-PAT66.dir/build
-.PHONY : tree-PAT66/fast
+tree-PAT151/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT151.dir/build.make CMakeFiles/tree-PAT151.dir/build
+.PHONY : tree-PAT151/fast
 
 #=============================================================================
-# Target rules for targets named math-PAT8
+# Target rules for targets named PAT-PAT97
 
 # Build rule for target.
-math-PAT8: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math-PAT8
-.PHONY : math-PAT8
+PAT-PAT97: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT97
+.PHONY : PAT-PAT97
 
 # fast build rule for target.
-math-PAT8/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-PAT8.dir/build.make CMakeFiles/math-PAT8.dir/build
-.PHONY : math-PAT8/fast
+PAT-PAT97/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT97.dir/build.make CMakeFiles/PAT-PAT97.dir/build
+.PHONY : PAT-PAT97/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT82
+# Target rules for targets named map-PAT18
 
 # Build rule for target.
-PAT-PAT82: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT82
-.PHONY : PAT-PAT82
+map-PAT18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map-PAT18
+.PHONY : map-PAT18
 
 # fast build rule for target.
-PAT-PAT82/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT82.dir/build.make CMakeFiles/PAT-PAT82.dir/build
-.PHONY : PAT-PAT82/fast
+map-PAT18/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT18.dir/build.make CMakeFiles/map-PAT18.dir/build
+.PHONY : map-PAT18/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT_02
+# Target rules for targets named PAT-PAT96
 
 # Build rule for target.
-PAT-PAT_02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT_02
-.PHONY : PAT-PAT_02
+PAT-PAT96: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT96
+.PHONY : PAT-PAT96
 
 # fast build rule for target.
-PAT-PAT_02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT_02.dir/build.make CMakeFiles/PAT-PAT_02.dir/build
-.PHONY : PAT-PAT_02/fast
+PAT-PAT96/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT96.dir/build.make CMakeFiles/PAT-PAT96.dir/build
+.PHONY : PAT-PAT96/fast
+
+#=============================================================================
+# Target rules for targets named mainOpt-mapTest
+
+# Build rule for target.
+mainOpt-mapTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-mapTest
+.PHONY : mainOpt-mapTest
+
+# fast build rule for target.
+mainOpt-mapTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-mapTest.dir/build.make CMakeFiles/mainOpt-mapTest.dir/build
+.PHONY : mainOpt-mapTest/fast
 
 #=============================================================================
 # Target rules for targets named sort-PAT28
@@ -663,19 +806,6 @@ PAT-PAT117/fast:
 .PHONY : PAT-PAT117/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT65
-
-# Build rule for target.
-PAT-PAT65: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT65
-.PHONY : PAT-PAT65
-
-# fast build rule for target.
-PAT-PAT65/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT65.dir/build.make CMakeFiles/PAT-PAT65.dir/build
-.PHONY : PAT-PAT65/fast
-
-#=============================================================================
 # Target rules for targets named PAT-PAT61
 
 # Build rule for target.
@@ -687,19 +817,6 @@ PAT-PAT61: cmake_check_build_system
 PAT-PAT61/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT61.dir/build.make CMakeFiles/PAT-PAT61.dir/build
 .PHONY : PAT-PAT61/fast
-
-#=============================================================================
-# Target rules for targets named tree-PAT04
-
-# Build rule for target.
-tree-PAT04: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree-PAT04
-.PHONY : tree-PAT04
-
-# fast build rule for target.
-tree-PAT04/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT04.dir/build.make CMakeFiles/tree-PAT04.dir/build
-.PHONY : tree-PAT04/fast
 
 #=============================================================================
 # Target rules for targets named map-PAT21
@@ -715,19 +832,6 @@ map-PAT21/fast:
 .PHONY : map-PAT21/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT48
-
-# Build rule for target.
-PAT-PAT48: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT48
-.PHONY : PAT-PAT48
-
-# fast build rule for target.
-PAT-PAT48/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT48.dir/build.make CMakeFiles/PAT-PAT48.dir/build
-.PHONY : PAT-PAT48/fast
-
-#=============================================================================
 # Target rules for targets named PAT-PAT93
 
 # Build rule for target.
@@ -739,6 +843,32 @@ PAT-PAT93: cmake_check_build_system
 PAT-PAT93/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT93.dir/build.make CMakeFiles/PAT-PAT93.dir/build
 .PHONY : PAT-PAT93/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT_02
+
+# Build rule for target.
+PAT-PAT_02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT_02
+.PHONY : PAT-PAT_02
+
+# fast build rule for target.
+PAT-PAT_02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT_02.dir/build.make CMakeFiles/PAT-PAT_02.dir/build
+.PHONY : PAT-PAT_02/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT48
+
+# Build rule for target.
+PAT-PAT48: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT48
+.PHONY : PAT-PAT48
+
+# fast build rule for target.
+PAT-PAT48/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT48.dir/build.make CMakeFiles/PAT-PAT48.dir/build
+.PHONY : PAT-PAT48/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT44
@@ -754,30 +884,30 @@ PAT-PAT44/fast:
 .PHONY : PAT-PAT44/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT78
+# Target rules for targets named PAT-PAT35
 
 # Build rule for target.
-PAT-PAT78: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT78
-.PHONY : PAT-PAT78
+PAT-PAT35: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT35
+.PHONY : PAT-PAT35
 
 # fast build rule for target.
-PAT-PAT78/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT78.dir/build.make CMakeFiles/PAT-PAT78.dir/build
-.PHONY : PAT-PAT78/fast
+PAT-PAT35/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT35.dir/build.make CMakeFiles/PAT-PAT35.dir/build
+.PHONY : PAT-PAT35/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT37
+# Target rules for targets named PAT-PAT58
 
 # Build rule for target.
-PAT-PAT37: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT37
-.PHONY : PAT-PAT37
+PAT-PAT58: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT58
+.PHONY : PAT-PAT58
 
 # fast build rule for target.
-PAT-PAT37/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT37.dir/build.make CMakeFiles/PAT-PAT37.dir/build
-.PHONY : PAT-PAT37/fast
+PAT-PAT58/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT58.dir/build.make CMakeFiles/PAT-PAT58.dir/build
+.PHONY : PAT-PAT58/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT138
@@ -793,56 +923,69 @@ PAT-PAT138/fast:
 .PHONY : PAT-PAT138/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT32
+# Target rules for targets named tree-PAT66
 
 # Build rule for target.
-PAT-PAT32: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT32
-.PHONY : PAT-PAT32
+tree-PAT66: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree-PAT66
+.PHONY : tree-PAT66
 
 # fast build rule for target.
-PAT-PAT32/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT32.dir/build.make CMakeFiles/PAT-PAT32.dir/build
-.PHONY : PAT-PAT32/fast
+tree-PAT66/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT66.dir/build.make CMakeFiles/tree-PAT66.dir/build
+.PHONY : tree-PAT66/fast
 
 #=============================================================================
-# Target rules for targets named mainOpt-main
+# Target rules for targets named PAT-PAT147
 
 # Build rule for target.
-mainOpt-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-main
-.PHONY : mainOpt-main
+PAT-PAT147: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT147
+.PHONY : PAT-PAT147
 
 # fast build rule for target.
-mainOpt-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-main.dir/build.make CMakeFiles/mainOpt-main.dir/build
-.PHONY : mainOpt-main/fast
+PAT-PAT147/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT147.dir/build.make CMakeFiles/PAT-PAT147.dir/build
+.PHONY : PAT-PAT147/fast
 
 #=============================================================================
-# Target rules for targets named map-PAT18
+# Target rules for targets named PAT-PAT82
 
 # Build rule for target.
-map-PAT18: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map-PAT18
-.PHONY : map-PAT18
+PAT-PAT82: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT82
+.PHONY : PAT-PAT82
 
 # fast build rule for target.
-map-PAT18/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT18.dir/build.make CMakeFiles/map-PAT18.dir/build
-.PHONY : map-PAT18/fast
+PAT-PAT82/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT82.dir/build.make CMakeFiles/PAT-PAT82.dir/build
+.PHONY : PAT-PAT82/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT35
+# Target rules for targets named PAT-PAT10
 
 # Build rule for target.
-PAT-PAT35: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT35
-.PHONY : PAT-PAT35
+PAT-PAT10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT10
+.PHONY : PAT-PAT10
 
 # fast build rule for target.
-PAT-PAT35/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT35.dir/build.make CMakeFiles/PAT-PAT35.dir/build
-.PHONY : PAT-PAT35/fast
+PAT-PAT10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT10.dir/build.make CMakeFiles/PAT-PAT10.dir/build
+.PHONY : PAT-PAT10/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT27
+
+# Build rule for target.
+PAT-PAT27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT27
+.PHONY : PAT-PAT27
+
+# fast build rule for target.
+PAT-PAT27/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT27.dir/build.make CMakeFiles/PAT-PAT27.dir/build
+.PHONY : PAT-PAT27/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT23
@@ -897,56 +1040,56 @@ PAT-PAT19/fast:
 .PHONY : PAT-PAT19/fast
 
 #=============================================================================
-# Target rules for targets named mainOpt-vectorTest
+# Target rules for targets named PAT-PAT37
 
 # Build rule for target.
-mainOpt-vectorTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-vectorTest
-.PHONY : mainOpt-vectorTest
+PAT-PAT37: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT37
+.PHONY : PAT-PAT37
 
 # fast build rule for target.
-mainOpt-vectorTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-vectorTest.dir/build.make CMakeFiles/mainOpt-vectorTest.dir/build
-.PHONY : mainOpt-vectorTest/fast
+PAT-PAT37/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT37.dir/build.make CMakeFiles/PAT-PAT37.dir/build
+.PHONY : PAT-PAT37/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT27
+# Target rules for targets named PAT-PAT150
 
 # Build rule for target.
-PAT-PAT27: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT27
-.PHONY : PAT-PAT27
+PAT-PAT150: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT150
+.PHONY : PAT-PAT150
 
 # fast build rule for target.
-PAT-PAT27/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT27.dir/build.make CMakeFiles/PAT-PAT27.dir/build
-.PHONY : PAT-PAT27/fast
+PAT-PAT150/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT150.dir/build.make CMakeFiles/PAT-PAT150.dir/build
+.PHONY : PAT-PAT150/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT97
+# Target rules for targets named PAT-PAT144
 
 # Build rule for target.
-PAT-PAT97: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT97
-.PHONY : PAT-PAT97
+PAT-PAT144: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT144
+.PHONY : PAT-PAT144
 
 # fast build rule for target.
-PAT-PAT97/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT97.dir/build.make CMakeFiles/PAT-PAT97.dir/build
-.PHONY : PAT-PAT97/fast
+PAT-PAT144/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT144.dir/build.make CMakeFiles/PAT-PAT144.dir/build
+.PHONY : PAT-PAT144/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT96
+# Target rules for targets named PAT-PAT01
 
 # Build rule for target.
-PAT-PAT96: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT96
-.PHONY : PAT-PAT96
+PAT-PAT01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT01
+.PHONY : PAT-PAT01
 
 # fast build rule for target.
-PAT-PAT96/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT96.dir/build.make CMakeFiles/PAT-PAT96.dir/build
-.PHONY : PAT-PAT96/fast
+PAT-PAT01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT01.dir/build.make CMakeFiles/PAT-PAT01.dir/build
+.PHONY : PAT-PAT01/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT09
@@ -960,6 +1103,19 @@ PAT-PAT09: cmake_check_build_system
 PAT-PAT09/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT09.dir/build.make CMakeFiles/PAT-PAT09.dir/build
 .PHONY : PAT-PAT09/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT149
+
+# Build rule for target.
+PAT-PAT149: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT149
+.PHONY : PAT-PAT149
+
+# fast build rule for target.
+PAT-PAT149/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT149.dir/build.make CMakeFiles/PAT-PAT149.dir/build
+.PHONY : PAT-PAT149/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT59
@@ -1014,95 +1170,17 @@ PAT-PAT139/fast:
 .PHONY : PAT-PAT139/fast
 
 #=============================================================================
-# Target rules for targets named stl-PAT51
+# Target rules for targets named lcode-lcode5
 
 # Build rule for target.
-stl-PAT51: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-PAT51
-.PHONY : stl-PAT51
+lcode-lcode5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode5
+.PHONY : lcode-lcode5
 
 # fast build rule for target.
-stl-PAT51/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-PAT51.dir/build.make CMakeFiles/stl-PAT51.dir/build
-.PHONY : stl-PAT51/fast
-
-#=============================================================================
-# Target rules for targets named lcode-lcode1
-
-# Build rule for target.
-lcode-lcode1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode1
-.PHONY : lcode-lcode1
-
-# fast build rule for target.
-lcode-lcode1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode1.dir/build.make CMakeFiles/lcode-lcode1.dir/build
-.PHONY : lcode-lcode1/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT73
-
-# Build rule for target.
-PAT-PAT73: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT73
-.PHONY : PAT-PAT73
-
-# fast build rule for target.
-PAT-PAT73/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT73.dir/build.make CMakeFiles/PAT-PAT73.dir/build
-.PHONY : PAT-PAT73/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT100
-
-# Build rule for target.
-PAT-PAT100: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT100
-.PHONY : PAT-PAT100
-
-# fast build rule for target.
-PAT-PAT100/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT100.dir/build.make CMakeFiles/PAT-PAT100.dir/build
-.PHONY : PAT-PAT100/fast
-
-#=============================================================================
-# Target rules for targets named sort-PAT16
-
-# Build rule for target.
-sort-PAT16: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort-PAT16
-.PHONY : sort-PAT16
-
-# fast build rule for target.
-sort-PAT16/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort-PAT16.dir/build.make CMakeFiles/sort-PAT16.dir/build
-.PHONY : sort-PAT16/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT11
-
-# Build rule for target.
-PAT-PAT11: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT11
-.PHONY : PAT-PAT11
-
-# fast build rule for target.
-PAT-PAT11/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT11.dir/build.make CMakeFiles/PAT-PAT11.dir/build
-.PHONY : PAT-PAT11/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT24
-
-# Build rule for target.
-PAT-PAT24: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT24
-.PHONY : PAT-PAT24
-
-# fast build rule for target.
-PAT-PAT24/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT24.dir/build.make CMakeFiles/PAT-PAT24.dir/build
-.PHONY : PAT-PAT24/fast
+lcode-lcode5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/build
+.PHONY : lcode-lcode5/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT137
@@ -1116,19 +1194,6 @@ PAT-PAT137: cmake_check_build_system
 PAT-PAT137/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT137.dir/build.make CMakeFiles/PAT-PAT137.dir/build
 .PHONY : PAT-PAT137/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT36
-
-# Build rule for target.
-PAT-PAT36: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT36
-.PHONY : PAT-PAT36
-
-# fast build rule for target.
-PAT-PAT36/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT36.dir/build.make CMakeFiles/PAT-PAT36.dir/build
-.PHONY : PAT-PAT36/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT136
@@ -1157,17 +1222,30 @@ sort-PAT95/fast:
 .PHONY : sort-PAT95/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT58
+# Target rules for targets named PAT-PAT111
 
 # Build rule for target.
-PAT-PAT58: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT58
-.PHONY : PAT-PAT58
+PAT-PAT111: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT111
+.PHONY : PAT-PAT111
 
 # fast build rule for target.
-PAT-PAT58/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT58.dir/build.make CMakeFiles/PAT-PAT58.dir/build
-.PHONY : PAT-PAT58/fast
+PAT-PAT111/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT111.dir/build.make CMakeFiles/PAT-PAT111.dir/build
+.PHONY : PAT-PAT111/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT100
+
+# Build rule for target.
+PAT-PAT100: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT100
+.PHONY : PAT-PAT100
+
+# fast build rule for target.
+PAT-PAT100/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT100.dir/build.make CMakeFiles/PAT-PAT100.dir/build
+.PHONY : PAT-PAT100/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT101
@@ -1181,6 +1259,97 @@ PAT-PAT101: cmake_check_build_system
 PAT-PAT101/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT101.dir/build.make CMakeFiles/PAT-PAT101.dir/build
 .PHONY : PAT-PAT101/fast
+
+#=============================================================================
+# Target rules for targets named stl-PAT51
+
+# Build rule for target.
+stl-PAT51: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-PAT51
+.PHONY : stl-PAT51
+
+# fast build rule for target.
+stl-PAT51/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-PAT51.dir/build.make CMakeFiles/stl-PAT51.dir/build
+.PHONY : stl-PAT51/fast
+
+#=============================================================================
+# Target rules for targets named mainOpt-stringTest
+
+# Build rule for target.
+mainOpt-stringTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainOpt-stringTest
+.PHONY : mainOpt-stringTest
+
+# fast build rule for target.
+mainOpt-stringTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainOpt-stringTest.dir/build.make CMakeFiles/mainOpt-stringTest.dir/build
+.PHONY : mainOpt-stringTest/fast
+
+#=============================================================================
+# Target rules for targets named lcode-lcode1
+
+# Build rule for target.
+lcode-lcode1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode1
+.PHONY : lcode-lcode1
+
+# fast build rule for target.
+lcode-lcode1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode1.dir/build.make CMakeFiles/lcode-lcode1.dir/build
+.PHONY : lcode-lcode1/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT73
+
+# Build rule for target.
+PAT-PAT73: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT73
+.PHONY : PAT-PAT73
+
+# fast build rule for target.
+PAT-PAT73/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT73.dir/build.make CMakeFiles/PAT-PAT73.dir/build
+.PHONY : PAT-PAT73/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT11
+
+# Build rule for target.
+PAT-PAT11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT11
+.PHONY : PAT-PAT11
+
+# fast build rule for target.
+PAT-PAT11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT11.dir/build.make CMakeFiles/PAT-PAT11.dir/build
+.PHONY : PAT-PAT11/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT24
+
+# Build rule for target.
+PAT-PAT24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT24
+.PHONY : PAT-PAT24
+
+# fast build rule for target.
+PAT-PAT24/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT24.dir/build.make CMakeFiles/PAT-PAT24.dir/build
+.PHONY : PAT-PAT24/fast
+
+#=============================================================================
+# Target rules for targets named map-dijstra
+
+# Build rule for target.
+map-dijstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map-dijstra
+.PHONY : map-dijstra
+
+# fast build rule for target.
+map-dijstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-dijstra.dir/build.make CMakeFiles/map-dijstra.dir/build
+.PHONY : map-dijstra/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT81
@@ -1207,6 +1376,19 @@ map-PAT34: cmake_check_build_system
 map-PAT34/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT34.dir/build.make CMakeFiles/map-PAT34.dir/build
 .PHONY : map-PAT34/fast
+
+#=============================================================================
+# Target rules for targets named PAT-PAT02
+
+# Build rule for target.
+PAT-PAT02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT02
+.PHONY : PAT-PAT02
+
+# fast build rule for target.
+PAT-PAT02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT02.dir/build.make CMakeFiles/PAT-PAT02.dir/build
+.PHONY : PAT-PAT02/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT15
@@ -1248,19 +1430,6 @@ math-PAT49/fast:
 .PHONY : math-PAT49/fast
 
 #=============================================================================
-# Target rules for targets named lcode-lcode5
-
-# Build rule for target.
-lcode-lcode5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcode-lcode5
-.PHONY : lcode-lcode5
-
-# fast build rule for target.
-lcode-lcode5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode5.dir/build.make CMakeFiles/lcode-lcode5.dir/build
-.PHONY : lcode-lcode5/fast
-
-#=============================================================================
 # Target rules for targets named PAT-PAT46
 
 # Build rule for target.
@@ -1272,19 +1441,6 @@ PAT-PAT46: cmake_check_build_system
 PAT-PAT46/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT46.dir/build.make CMakeFiles/PAT-PAT46.dir/build
 .PHONY : PAT-PAT46/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT02
-
-# Build rule for target.
-PAT-PAT02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT02
-.PHONY : PAT-PAT02
-
-# fast build rule for target.
-PAT-PAT02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT02.dir/build.make CMakeFiles/PAT-PAT02.dir/build
-.PHONY : PAT-PAT02/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT111_2
@@ -1313,17 +1469,17 @@ PAT-PAT67/fast:
 .PHONY : PAT-PAT67/fast
 
 #=============================================================================
-# Target rules for targets named PAT-PAT10
+# Target rules for targets named PAT-PAT145
 
 # Build rule for target.
-PAT-PAT10: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT10
-.PHONY : PAT-PAT10
+PAT-PAT145: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT145
+.PHONY : PAT-PAT145
 
 # fast build rule for target.
-PAT-PAT10/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT10.dir/build.make CMakeFiles/PAT-PAT10.dir/build
-.PHONY : PAT-PAT10/fast
+PAT-PAT145/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT145.dir/build.make CMakeFiles/PAT-PAT145.dir/build
+.PHONY : PAT-PAT145/fast
 
 #=============================================================================
 # Target rules for targets named PAT-PAT06
@@ -1337,32 +1493,6 @@ PAT-PAT06: cmake_check_build_system
 PAT-PAT06/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT06.dir/build.make CMakeFiles/PAT-PAT06.dir/build
 .PHONY : PAT-PAT06/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT111
-
-# Build rule for target.
-PAT-PAT111: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT111
-.PHONY : PAT-PAT111
-
-# fast build rule for target.
-PAT-PAT111/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT111.dir/build.make CMakeFiles/PAT-PAT111.dir/build
-.PHONY : PAT-PAT111/fast
-
-#=============================================================================
-# Target rules for targets named PAT-PAT01
-
-# Build rule for target.
-PAT-PAT01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT-PAT01
-.PHONY : PAT-PAT01
-
-# fast build rule for target.
-PAT-PAT01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT01.dir/build.make CMakeFiles/PAT-PAT01.dir/build
-.PHONY : PAT-PAT01/fast
 
 PAT/PAT01.o: PAT/PAT01.cpp.o
 
@@ -1769,6 +1899,141 @@ PAT/PAT139.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT139.dir/build.make CMakeFiles/PAT-PAT139.dir/PAT/PAT139.cpp.s
 .PHONY : PAT/PAT139.cpp.s
 
+PAT/PAT144.o: PAT/PAT144.cpp.o
+
+.PHONY : PAT/PAT144.o
+
+# target to build an object file
+PAT/PAT144.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT144.dir/build.make CMakeFiles/PAT-PAT144.dir/PAT/PAT144.cpp.o
+.PHONY : PAT/PAT144.cpp.o
+
+PAT/PAT144.i: PAT/PAT144.cpp.i
+
+.PHONY : PAT/PAT144.i
+
+# target to preprocess a source file
+PAT/PAT144.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT144.dir/build.make CMakeFiles/PAT-PAT144.dir/PAT/PAT144.cpp.i
+.PHONY : PAT/PAT144.cpp.i
+
+PAT/PAT144.s: PAT/PAT144.cpp.s
+
+.PHONY : PAT/PAT144.s
+
+# target to generate assembly for a file
+PAT/PAT144.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT144.dir/build.make CMakeFiles/PAT-PAT144.dir/PAT/PAT144.cpp.s
+.PHONY : PAT/PAT144.cpp.s
+
+PAT/PAT145.o: PAT/PAT145.cpp.o
+
+.PHONY : PAT/PAT145.o
+
+# target to build an object file
+PAT/PAT145.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT145.dir/build.make CMakeFiles/PAT-PAT145.dir/PAT/PAT145.cpp.o
+.PHONY : PAT/PAT145.cpp.o
+
+PAT/PAT145.i: PAT/PAT145.cpp.i
+
+.PHONY : PAT/PAT145.i
+
+# target to preprocess a source file
+PAT/PAT145.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT145.dir/build.make CMakeFiles/PAT-PAT145.dir/PAT/PAT145.cpp.i
+.PHONY : PAT/PAT145.cpp.i
+
+PAT/PAT145.s: PAT/PAT145.cpp.s
+
+.PHONY : PAT/PAT145.s
+
+# target to generate assembly for a file
+PAT/PAT145.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT145.dir/build.make CMakeFiles/PAT-PAT145.dir/PAT/PAT145.cpp.s
+.PHONY : PAT/PAT145.cpp.s
+
+PAT/PAT146.o: PAT/PAT146.cpp.o
+
+.PHONY : PAT/PAT146.o
+
+# target to build an object file
+PAT/PAT146.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT146.dir/build.make CMakeFiles/PAT-PAT146.dir/PAT/PAT146.cpp.o
+.PHONY : PAT/PAT146.cpp.o
+
+PAT/PAT146.i: PAT/PAT146.cpp.i
+
+.PHONY : PAT/PAT146.i
+
+# target to preprocess a source file
+PAT/PAT146.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT146.dir/build.make CMakeFiles/PAT-PAT146.dir/PAT/PAT146.cpp.i
+.PHONY : PAT/PAT146.cpp.i
+
+PAT/PAT146.s: PAT/PAT146.cpp.s
+
+.PHONY : PAT/PAT146.s
+
+# target to generate assembly for a file
+PAT/PAT146.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT146.dir/build.make CMakeFiles/PAT-PAT146.dir/PAT/PAT146.cpp.s
+.PHONY : PAT/PAT146.cpp.s
+
+PAT/PAT147.o: PAT/PAT147.cpp.o
+
+.PHONY : PAT/PAT147.o
+
+# target to build an object file
+PAT/PAT147.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT147.dir/build.make CMakeFiles/PAT-PAT147.dir/PAT/PAT147.cpp.o
+.PHONY : PAT/PAT147.cpp.o
+
+PAT/PAT147.i: PAT/PAT147.cpp.i
+
+.PHONY : PAT/PAT147.i
+
+# target to preprocess a source file
+PAT/PAT147.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT147.dir/build.make CMakeFiles/PAT-PAT147.dir/PAT/PAT147.cpp.i
+.PHONY : PAT/PAT147.cpp.i
+
+PAT/PAT147.s: PAT/PAT147.cpp.s
+
+.PHONY : PAT/PAT147.s
+
+# target to generate assembly for a file
+PAT/PAT147.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT147.dir/build.make CMakeFiles/PAT-PAT147.dir/PAT/PAT147.cpp.s
+.PHONY : PAT/PAT147.cpp.s
+
+PAT/PAT149.o: PAT/PAT149.cpp.o
+
+.PHONY : PAT/PAT149.o
+
+# target to build an object file
+PAT/PAT149.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT149.dir/build.make CMakeFiles/PAT-PAT149.dir/PAT/PAT149.cpp.o
+.PHONY : PAT/PAT149.cpp.o
+
+PAT/PAT149.i: PAT/PAT149.cpp.i
+
+.PHONY : PAT/PAT149.i
+
+# target to preprocess a source file
+PAT/PAT149.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT149.dir/build.make CMakeFiles/PAT-PAT149.dir/PAT/PAT149.cpp.i
+.PHONY : PAT/PAT149.cpp.i
+
+PAT/PAT149.s: PAT/PAT149.cpp.s
+
+.PHONY : PAT/PAT149.s
+
+# target to generate assembly for a file
+PAT/PAT149.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT149.dir/build.make CMakeFiles/PAT-PAT149.dir/PAT/PAT149.cpp.s
+.PHONY : PAT/PAT149.cpp.s
+
 PAT/PAT15.o: PAT/PAT15.cpp.o
 
 .PHONY : PAT/PAT15.o
@@ -1795,6 +2060,33 @@ PAT/PAT15.s: PAT/PAT15.cpp.s
 PAT/PAT15.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT15.dir/build.make CMakeFiles/PAT-PAT15.dir/PAT/PAT15.cpp.s
 .PHONY : PAT/PAT15.cpp.s
+
+PAT/PAT150.o: PAT/PAT150.cpp.o
+
+.PHONY : PAT/PAT150.o
+
+# target to build an object file
+PAT/PAT150.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT150.dir/build.make CMakeFiles/PAT-PAT150.dir/PAT/PAT150.cpp.o
+.PHONY : PAT/PAT150.cpp.o
+
+PAT/PAT150.i: PAT/PAT150.cpp.i
+
+.PHONY : PAT/PAT150.i
+
+# target to preprocess a source file
+PAT/PAT150.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT150.dir/build.make CMakeFiles/PAT-PAT150.dir/PAT/PAT150.cpp.i
+.PHONY : PAT/PAT150.cpp.i
+
+PAT/PAT150.s: PAT/PAT150.cpp.s
+
+.PHONY : PAT/PAT150.s
+
+# target to generate assembly for a file
+PAT/PAT150.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT-PAT150.dir/build.make CMakeFiles/PAT-PAT150.dir/PAT/PAT150.cpp.s
+.PHONY : PAT/PAT150.cpp.s
 
 PAT/PAT19.o: PAT/PAT19.cpp.o
 
@@ -2876,6 +3168,33 @@ PAT/lcode/lcode6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode6.dir/build.make CMakeFiles/lcode-lcode6.dir/PAT/lcode/lcode6.cpp.s
 .PHONY : PAT/lcode/lcode6.cpp.s
 
+PAT/lcode/lcode649.o: PAT/lcode/lcode649.cpp.o
+
+.PHONY : PAT/lcode/lcode649.o
+
+# target to build an object file
+PAT/lcode/lcode649.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode649.dir/build.make CMakeFiles/lcode-lcode649.dir/PAT/lcode/lcode649.cpp.o
+.PHONY : PAT/lcode/lcode649.cpp.o
+
+PAT/lcode/lcode649.i: PAT/lcode/lcode649.cpp.i
+
+.PHONY : PAT/lcode/lcode649.i
+
+# target to preprocess a source file
+PAT/lcode/lcode649.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode649.dir/build.make CMakeFiles/lcode-lcode649.dir/PAT/lcode/lcode649.cpp.i
+.PHONY : PAT/lcode/lcode649.cpp.i
+
+PAT/lcode/lcode649.s: PAT/lcode/lcode649.cpp.s
+
+.PHONY : PAT/lcode/lcode649.s
+
+# target to generate assembly for a file
+PAT/lcode/lcode649.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcode-lcode649.dir/build.make CMakeFiles/lcode-lcode649.dir/PAT/lcode/lcode649.cpp.s
+.PHONY : PAT/lcode/lcode649.cpp.s
+
 PAT/lcode/lecode3.o: PAT/lcode/lecode3.cpp.o
 
 .PHONY : PAT/lcode/lecode3.o
@@ -2956,6 +3275,33 @@ PAT/map/PAT131.s: PAT/map/PAT131.cpp.s
 PAT/map/PAT131.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT131.dir/build.make CMakeFiles/map-PAT131.dir/PAT/map/PAT131.cpp.s
 .PHONY : PAT/map/PAT131.cpp.s
+
+PAT/map/PAT150.o: PAT/map/PAT150.cpp.o
+
+.PHONY : PAT/map/PAT150.o
+
+# target to build an object file
+PAT/map/PAT150.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT150.dir/build.make CMakeFiles/map-PAT150.dir/PAT/map/PAT150.cpp.o
+.PHONY : PAT/map/PAT150.cpp.o
+
+PAT/map/PAT150.i: PAT/map/PAT150.cpp.i
+
+.PHONY : PAT/map/PAT150.i
+
+# target to preprocess a source file
+PAT/map/PAT150.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT150.dir/build.make CMakeFiles/map-PAT150.dir/PAT/map/PAT150.cpp.i
+.PHONY : PAT/map/PAT150.cpp.i
+
+PAT/map/PAT150.s: PAT/map/PAT150.cpp.s
+
+.PHONY : PAT/map/PAT150.s
+
+# target to generate assembly for a file
+PAT/map/PAT150.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT150.dir/build.make CMakeFiles/map-PAT150.dir/PAT/map/PAT150.cpp.s
+.PHONY : PAT/map/PAT150.cpp.s
 
 PAT/map/PAT18.o: PAT/map/PAT18.cpp.o
 
@@ -3064,6 +3410,33 @@ PAT/map/PAT91.s: PAT/map/PAT91.cpp.s
 PAT/map/PAT91.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-PAT91.dir/build.make CMakeFiles/map-PAT91.dir/PAT/map/PAT91.cpp.s
 .PHONY : PAT/map/PAT91.cpp.s
+
+PAT/map/dijstra.o: PAT/map/dijstra.cpp.o
+
+.PHONY : PAT/map/dijstra.o
+
+# target to build an object file
+PAT/map/dijstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-dijstra.dir/build.make CMakeFiles/map-dijstra.dir/PAT/map/dijstra.cpp.o
+.PHONY : PAT/map/dijstra.cpp.o
+
+PAT/map/dijstra.i: PAT/map/dijstra.cpp.i
+
+.PHONY : PAT/map/dijstra.i
+
+# target to preprocess a source file
+PAT/map/dijstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-dijstra.dir/build.make CMakeFiles/map-dijstra.dir/PAT/map/dijstra.cpp.i
+.PHONY : PAT/map/dijstra.cpp.i
+
+PAT/map/dijstra.s: PAT/map/dijstra.cpp.s
+
+.PHONY : PAT/map/dijstra.s
+
+# target to generate assembly for a file
+PAT/map/dijstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/map-dijstra.dir/build.make CMakeFiles/map-dijstra.dir/PAT/map/dijstra.cpp.s
+.PHONY : PAT/map/dijstra.cpp.s
 
 PAT/math/PAT104.o: PAT/math/PAT104.cpp.o
 
@@ -3551,6 +3924,33 @@ PAT/tree/PAT123.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT123.dir/build.make CMakeFiles/tree-PAT123.dir/PAT/tree/PAT123.cpp.s
 .PHONY : PAT/tree/PAT123.cpp.s
 
+PAT/tree/PAT151.o: PAT/tree/PAT151.cpp.o
+
+.PHONY : PAT/tree/PAT151.o
+
+# target to build an object file
+PAT/tree/PAT151.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT151.dir/build.make CMakeFiles/tree-PAT151.dir/PAT/tree/PAT151.cpp.o
+.PHONY : PAT/tree/PAT151.cpp.o
+
+PAT/tree/PAT151.i: PAT/tree/PAT151.cpp.i
+
+.PHONY : PAT/tree/PAT151.i
+
+# target to preprocess a source file
+PAT/tree/PAT151.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT151.dir/build.make CMakeFiles/tree-PAT151.dir/PAT/tree/PAT151.cpp.i
+.PHONY : PAT/tree/PAT151.cpp.i
+
+PAT/tree/PAT151.s: PAT/tree/PAT151.cpp.s
+
+.PHONY : PAT/tree/PAT151.s
+
+# target to generate assembly for a file
+PAT/tree/PAT151.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree-PAT151.dir/build.make CMakeFiles/tree-PAT151.dir/PAT/tree/PAT151.cpp.s
+.PHONY : PAT/tree/PAT151.cpp.s
+
 PAT/tree/PAT43.o: PAT/tree/PAT43.cpp.o
 
 .PHONY : PAT/tree/PAT43.o
@@ -3952,7 +4352,13 @@ help:
 	@echo "... PAT-PAT137"
 	@echo "... PAT-PAT138"
 	@echo "... PAT-PAT139"
+	@echo "... PAT-PAT144"
+	@echo "... PAT-PAT145"
+	@echo "... PAT-PAT146"
+	@echo "... PAT-PAT147"
+	@echo "... PAT-PAT149"
 	@echo "... PAT-PAT15"
+	@echo "... PAT-PAT150"
 	@echo "... PAT-PAT19"
 	@echo "... PAT-PAT23"
 	@echo "... PAT-PAT24"
@@ -3994,6 +4400,7 @@ help:
 	@echo "... lcode-lcode4"
 	@echo "... lcode-lcode5"
 	@echo "... lcode-lcode6"
+	@echo "... lcode-lcode649"
 	@echo "... lcode-lecode3"
 	@echo "... mainOpt-IOTest"
 	@echo "... mainOpt-main"
@@ -4004,10 +4411,12 @@ help:
 	@echo "... mainOpt-vectorTest"
 	@echo "... map-PAT13"
 	@echo "... map-PAT131"
+	@echo "... map-PAT150"
 	@echo "... map-PAT18"
 	@echo "... map-PAT21"
 	@echo "... map-PAT34"
 	@echo "... map-PAT91"
+	@echo "... map-dijstra"
 	@echo "... math-PAT104"
 	@echo "... math-PAT49"
 	@echo "... math-PAT69"
@@ -4026,6 +4435,7 @@ help:
 	@echo "... stl-PAT98"
 	@echo "... tree-PAT04"
 	@echo "... tree-PAT123"
+	@echo "... tree-PAT151"
 	@echo "... tree-PAT43"
 	@echo "... tree-PAT53"
 	@echo "... tree-PAT66"
@@ -4077,9 +4487,27 @@ help:
 	@echo "... PAT/PAT139.o"
 	@echo "... PAT/PAT139.i"
 	@echo "... PAT/PAT139.s"
+	@echo "... PAT/PAT144.o"
+	@echo "... PAT/PAT144.i"
+	@echo "... PAT/PAT144.s"
+	@echo "... PAT/PAT145.o"
+	@echo "... PAT/PAT145.i"
+	@echo "... PAT/PAT145.s"
+	@echo "... PAT/PAT146.o"
+	@echo "... PAT/PAT146.i"
+	@echo "... PAT/PAT146.s"
+	@echo "... PAT/PAT147.o"
+	@echo "... PAT/PAT147.i"
+	@echo "... PAT/PAT147.s"
+	@echo "... PAT/PAT149.o"
+	@echo "... PAT/PAT149.i"
+	@echo "... PAT/PAT149.s"
 	@echo "... PAT/PAT15.o"
 	@echo "... PAT/PAT15.i"
 	@echo "... PAT/PAT15.s"
+	@echo "... PAT/PAT150.o"
+	@echo "... PAT/PAT150.i"
+	@echo "... PAT/PAT150.s"
 	@echo "... PAT/PAT19.o"
 	@echo "... PAT/PAT19.i"
 	@echo "... PAT/PAT19.s"
@@ -4200,6 +4628,9 @@ help:
 	@echo "... PAT/lcode/lcode6.o"
 	@echo "... PAT/lcode/lcode6.i"
 	@echo "... PAT/lcode/lcode6.s"
+	@echo "... PAT/lcode/lcode649.o"
+	@echo "... PAT/lcode/lcode649.i"
+	@echo "... PAT/lcode/lcode649.s"
 	@echo "... PAT/lcode/lecode3.o"
 	@echo "... PAT/lcode/lecode3.i"
 	@echo "... PAT/lcode/lecode3.s"
@@ -4209,6 +4640,9 @@ help:
 	@echo "... PAT/map/PAT131.o"
 	@echo "... PAT/map/PAT131.i"
 	@echo "... PAT/map/PAT131.s"
+	@echo "... PAT/map/PAT150.o"
+	@echo "... PAT/map/PAT150.i"
+	@echo "... PAT/map/PAT150.s"
 	@echo "... PAT/map/PAT18.o"
 	@echo "... PAT/map/PAT18.i"
 	@echo "... PAT/map/PAT18.s"
@@ -4221,6 +4655,9 @@ help:
 	@echo "... PAT/map/PAT91.o"
 	@echo "... PAT/map/PAT91.i"
 	@echo "... PAT/map/PAT91.s"
+	@echo "... PAT/map/dijstra.o"
+	@echo "... PAT/map/dijstra.i"
+	@echo "... PAT/map/dijstra.s"
 	@echo "... PAT/math/PAT104.o"
 	@echo "... PAT/math/PAT104.i"
 	@echo "... PAT/math/PAT104.s"
@@ -4275,6 +4712,9 @@ help:
 	@echo "... PAT/tree/PAT123.o"
 	@echo "... PAT/tree/PAT123.i"
 	@echo "... PAT/tree/PAT123.s"
+	@echo "... PAT/tree/PAT151.o"
+	@echo "... PAT/tree/PAT151.i"
+	@echo "... PAT/tree/PAT151.s"
 	@echo "... PAT/tree/PAT43.o"
 	@echo "... PAT/tree/PAT43.i"
 	@echo "... PAT/tree/PAT43.s"
