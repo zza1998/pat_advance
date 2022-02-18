@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mainOpt-IOTest.dir/mainOpt/IOTest.cpp.o"
+  "CMakeFiles/mainOpt-IOTest.dir/mainOpt/IOTest.cpp.o.d"
   "mainOpt-IOTest"
   "mainOpt-IOTest.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mainOpt-mapTest.dir/mainOpt/mapTest.cpp.o"
+  "CMakeFiles/mainOpt-mapTest.dir/mainOpt/mapTest.cpp.o.d"
   "mainOpt-mapTest"
   "mainOpt-mapTest.pdb"
 )

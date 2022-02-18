@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hash-PAT41.dir/PAT/hash/PAT41.cpp.o"
+  "CMakeFiles/hash-PAT41.dir/PAT/hash/PAT41.cpp.o.d"
   "hash-PAT41"
   "hash-PAT41.pdb"
 )

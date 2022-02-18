@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PAT-PAT82.dir/PAT/PAT82.cpp.o"
+  "CMakeFiles/PAT-PAT82.dir/PAT/PAT82.cpp.o.d"
   "PAT-PAT82"
   "PAT-PAT82.pdb"
 )

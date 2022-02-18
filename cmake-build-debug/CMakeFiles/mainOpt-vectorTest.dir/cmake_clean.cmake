@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mainOpt-vectorTest.dir/mainOpt/vectorTest.cpp.o"
+  "CMakeFiles/mainOpt-vectorTest.dir/mainOpt/vectorTest.cpp.o.d"
   "mainOpt-vectorTest"
   "mainOpt-vectorTest.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hash-PAT92.dir/PAT/hash/PAT92.cpp.o"
+  "CMakeFiles/hash-PAT92.dir/PAT/hash/PAT92.cpp.o.d"
   "hash-PAT92"
   "hash-PAT92.pdb"
 )

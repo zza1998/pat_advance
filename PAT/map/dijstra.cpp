@@ -41,7 +41,6 @@ void dijkstra() {
 //            edges[curr][i] = edges[curr][minI] + edges[minI][i];
 //        }
 //    }
-
 }
 void dijkstraV2(){
     fill(dis,dis+100,0x777777);

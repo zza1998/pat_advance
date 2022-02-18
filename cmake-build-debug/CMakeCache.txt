@@ -225,6 +225,9 @@ ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 patTest_BINARY_DIR:STATIC=/Users/zhouzian/Documents/work_space/patTest/cmake-build-debug
 
 //Value Computed by CMake
+patTest_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 patTest_SOURCE_DIR:STATIC=/Users/zhouzian/Documents/work_space/patTest
 
 
@@ -241,9 +244,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/Users/zhouzian/Documents/work_space/patTest/cmake-
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=19
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=21
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -344,7 +347,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19
+CMAKE_ROOT:INTERNAL=/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

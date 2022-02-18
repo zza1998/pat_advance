@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map-PAT34.dir/PAT/map/PAT34.cpp.o"
+  "CMakeFiles/map-PAT34.dir/PAT/map/PAT34.cpp.o.d"
   "map-PAT34"
   "map-PAT34.pdb"
 )

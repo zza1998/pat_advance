@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/math-PAT69.dir/PAT/math/PAT69.cpp.o"
+  "CMakeFiles/math-PAT69.dir/PAT/math/PAT69.cpp.o.d"
   "math-PAT69"
   "math-PAT69.pdb"
 )

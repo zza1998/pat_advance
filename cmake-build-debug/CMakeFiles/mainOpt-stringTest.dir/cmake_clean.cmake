@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mainOpt-stringTest.dir/mainOpt/stringTest.cpp.o"
+  "CMakeFiles/mainOpt-stringTest.dir/mainOpt/stringTest.cpp.o.d"
   "mainOpt-stringTest"
   "mainOpt-stringTest.pdb"
 )

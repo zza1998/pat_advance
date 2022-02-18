@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sort-PATQsort.dir/PAT/sort/PATQsort.cpp.o"
+  "CMakeFiles/sort-PATQsort.dir/PAT/sort/PATQsort.cpp.o.d"
   "sort-PATQsort"
   "sort-PATQsort.pdb"
 )

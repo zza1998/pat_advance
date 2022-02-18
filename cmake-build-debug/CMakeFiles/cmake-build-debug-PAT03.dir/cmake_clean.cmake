@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cmake-build-debug-PAT03.dir/PAT03.cpp.o"
+  "CMakeFiles/cmake-build-debug-PAT03.dir/PAT03.cpp.o.d"
   "cmake-build-debug-PAT03"
   "cmake-build-debug-PAT03.pdb"
 )

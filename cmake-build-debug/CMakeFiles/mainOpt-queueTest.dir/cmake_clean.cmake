@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mainOpt-queueTest.dir/mainOpt/queueTest.cpp.o"
+  "CMakeFiles/mainOpt-queueTest.dir/mainOpt/queueTest.cpp.o.d"
   "mainOpt-queueTest"
   "mainOpt-queueTest.pdb"
 )
